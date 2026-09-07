@@ -1,10 +1,24 @@
 import { useEffect, useRef } from 'react'
 // O maplibre-gl v6 nao tem export default: precisa importar por nome.
 // "Map" e renomeado para MapaLibre porque Map ja existe no JavaScript.
-import { Map as MapaLibre, Marker, Popup, NavigationControl } from 'maplibre-gl'
+import {
+  Map as MapaLibre,
+  Marker,
+  Popup,
+  NavigationControl,
+  setWorkerUrl,
+} from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
+import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import pontos from '../data/pontos.json'
 import { destaquesDaArea } from '../lib/ranking.js'
+
+// O MapLibre decodifica os tiles dentro de um Web Worker. Nem o servidor de
+// desenvolvimento nem o build de producao do Vite conseguem rastrear sozinhos
+// o caminho desse worker, e o sintoma e sempre o mesmo: mapa em branco, sem
+// nenhum erro no console. Apontando o worker explicitamente, o Vite o
+// empacota como arquivo separado e o mapa funciona nos dois casos.
+setWorkerUrl(workerUrl)
 
 // Estilo de mapa do Stadia Maps. Em localhost funciona sem chave nenhuma.
 const ESTILO = 'https://tiles.stadiamaps.com/styles/alidade_smooth.json'

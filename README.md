@@ -1,90 +1,193 @@
-# Caca a Moema — mapa interativo de Fortaleza
+# Turistando com a Moema
 
-Mapa interativo com pontos escondidos e destaques turisticos por area,
-feito sem a API do Google Maps.
+Mapa interativo de Fortaleza com pontos escondidos e destaques turísticos por
+área — construído **sem** a API do Google Maps.
+
+- **Site:** https://turistandocommoema.vercel.app
+- **Repositório:** https://github.com/ziltom/NEP-Turistando-com-a-Moema
+
+---
+
+## O que o site faz
+
+**1. Caça à Moema.** Seis Moemas estão escondidas em bairros diferentes de
+Fortaleza. Cada uma só aparece a partir de um nível de zoom próprio — quanto
+mais escondida, mais é preciso explorar o mapa. Ao encontrar uma silhueta e
+clicar nela, a Moema é revelada e o progresso fica salvo no navegador.
+
+**2. Principais pontos da área.** Sempre que o mapa para de se mexer, o site
+mostra os 3 pontos turísticos mais relevantes da região visível, com marcadores
+numerados no mapa e uma lista no painel.
+
+---
 
 ## Stack
 
-- **Vite + React** — frontend, sem backend
-- **MapLibre GL JS** — biblioteca do mapa (open source, roda no navegador)
-- **Stadia Maps** — tiles do mapa. Em `localhost` funciona sem chave
-- **OpenStreetMap / Overpass API** — origem dos pontos turisticos
-- **Wikidata / Wikimedia Commons** — fotos dos pontos turisticos
+| Camada | Ferramenta | Custo |
+|---|---|---|
+| Frontend | Vite + React | — |
+| Mapa | MapLibre GL JS | grátis, open source |
+| Tiles | Stadia Maps | grátis (200 mil créditos/mês) |
+| Dados turísticos | OpenStreetMap via Overpass API | grátis |
+| Fotos | Wikidata / Wikimedia Commons | grátis |
+| Hospedagem | Vercel (plano Hobby) | grátis |
 
-Nao ha backend e nao ha banco de dados. O progresso do usuario fica no
-`localStorage` do navegador.
+**Não há backend e não há banco de dados.** O progresso do usuário fica no
+`localStorage`. Os dados turísticos são gerados antes do deploy e servidos como
+um arquivo estático — o site em produção não chama nenhuma API de dados.
+
+---
 
 ## Como rodar
 
-```
+```bash
 npm install
 npm run dev
 ```
 
-## Gerar os dados dos pontos turisticos
+Em `localhost` o Stadia Maps funciona sem chave de API. Nada para configurar.
 
-O site em producao **nunca** chama a Overpass API. Os dados sao gerados
-antes, uma unica vez:
+Para gerar a versão de produção:
 
+```bash
+npm run build
 ```
+
+---
+
+## Gerando os dados turísticos
+
+```bash
 npm run dados
 ```
 
-Isso consulta o OpenStreetMap, calcula os dados e escreve
-`src/data/pontos_turisticos.json`. Rode de novo so quando quiser atualizar.
+O script consulta a Overpass API, filtra e pontua os resultados, busca imagens
+na Wikidata e escreve `src/data/pontos_turisticos.json`. Rode de novo só quando
+quiser atualizar os dados.
 
-O arquivo ja vem com 8 pontos de exemplo (marcados com `aproximado: true`)
-para o site funcionar antes de voce rodar o script.
+Resultado da última execução para Fortaleza:
 
-## As duas mecanicas
+| | |
+|---|---|
+| Elementos brutos recebidos | 523 |
+| Pontos após limpeza | 520 |
+| Com ligação à Wikidata | 15 |
+| Com foto do Wikimedia | 13 |
+| Aprovados pelo corte de score | 186 |
+| Tamanho do arquivo | 72 KB |
 
-### 1. As Moemas escondidas
+---
 
-Cada Moema tem um `zoomMinimo` em `src/data/pontos.json`. Enquanto o zoom
-for menor, o marcador fica invisivel. Ao aproximar, aparece uma silhueta;
-clicando nela, vira a Moema e o progresso e salvo.
+## Como funciona o ranking
 
-As 6 Moemas estao espalhadas por bairros diferentes de Fortaleza, com
-dificuldade crescente (`zoomMinimo` de 12.5 ate 15.5).
+O OpenStreetMap não tem nota nem ranking de popularidade como o Google. A
+relevância é calculada em `src/lib/ranking.js`.
 
-### 2. Os 3 principais pontos da area
+**O problema principal:** 329 dos 520 pontos (63%) vêm com a tag
+`leisure=park`, porque no mapeamento brasileiro toda pracinha de bairro recebe
+essa tag. Sem tratamento, os "3 principais pontos" de qualquer bairro
+residencial seriam três praças anônimas.
 
-Sempre que a camera para de se mexer (`moveend`), o app:
+**Como é resolvido:**
 
-1. pega os limites da area visivel;
-2. filtra os pontos turisticos que estao dentro dela;
-3. ordena por um score calculado em `src/lib/ranking.js`;
-4. mostra os 3 primeiros no mapa e no painel.
+- `park` tem peso baixo (1) por padrão. O nome desempata: começa com "Parque"
+  sobe para 3; começa com "Praça" cai para 0,5.
+- Ponto mapeado como área (`way`/`relation`) ganha +0,5 sobre um ponto solto
+  (`node`) — quem desenhou o contorno estava mapeando algo grande.
+- Presença na Wikidata vale +6 e na Wikipédia +4. É o melhor indicador de
+  notoriedade que o OSM oferece: lugar famoso tem, pracinha não.
+- Tags preenchidas (foto, site, telefone) somam pontos menores.
+- Abaixo de `SCORE_MINIMO` (3,5) o ponto nem entra na disputa.
 
-Como o OpenStreetMap nao tem nota nem ranking de popularidade, o score usa:
-presenca na Wikidata (+6), na Wikipedia (+4), peso da categoria, e tags
-preenchidas como site e telefone.
+`SCORE_MINIMO` está no topo do arquivo. Baixe para 2 se quiser que o mapa quase
+sempre mostre 3 itens; suba para 6 para ver só os pontos realmente famosos.
 
-Abaixo do zoom 11 a feature desliga: a area visivel seria grande demais
-para "principais pontos" significar alguma coisa.
+Amostra do resultado:
+
+| Área | Top 3 |
+|---|---|
+| Centro | Museu do Ceará · Theatro José de Alencar · Fortaleza de N. S. da Assunção |
+| Beira-Mar | Museu da Imagem e do Som · Jardim Japonês Jusaku Fujita · Museu da Fotografia |
+| Entorno da Unifor | Museu do Automóvel · Teatro Celina Queiroz · Parque do Perfurador |
+| Messejana | Mercado de Messejana · Centro Administrativo · Parque da Lagoa de Messejana |
+
+---
 
 ## Estrutura
 
 ```
 scripts/gerar-pontos-turisticos.mjs   gera o JSON a partir do OpenStreetMap
-src/data/pontos.json                  as Moemas (edite a mao)
-src/data/pontos_turisticos.json       gerado pelo script
-src/lib/ranking.js                    score e filtro por area
-src/lib/descobertas.js                localStorage
-src/components/Mapa.jsx               o mapa e as duas mecanicas
+src/data/pontos.json                  as 6 Moemas (editar à mão)
+src/data/pontos_turisticos.json       gerado pelo script — não editar
+src/lib/ranking.js                    score e filtro por área
+src/lib/descobertas.js                persistência no localStorage
+src/components/Mapa.jsx               o mapa e as duas mecânicas
 src/components/PainelProgresso.jsx    contador e dicas
 src/components/CardsTuristicos.jsx    lista dos 3 destaques
-public/moema/                         silhueta.svg e moema.svg
+public/moema/moema-pin.png            a Moema revelada
+public/moema/moema-silhueta.png       o estado "não descoberto"
+public/moema/moema.png                imagem completa, usada no popup
 ```
 
-## O que ainda falta
+Para mudar uma Moema, edite `src/data/pontos.json`:
 
-- [ ] Rodar `npm run dados` para trocar os 8 pontos de exemplo pelos reais
-- [ ] Ajustar as coordenadas das Moemas em `src/data/pontos.json`
-- [ ] Trocar os SVGs de `public/moema/` pela arte real da Moema
-- [ ] Deploy na Vercel + cadastrar o dominio no Stadia Maps
+| Campo | O que é |
+|---|---|
+| `nome` | título do popup |
+| `descricao` | texto do popup |
+| `dica` | texto na lista lateral enquanto não foi encontrada |
+| `zoomMinimo` | a partir de qual zoom a silhueta aparece (12,5 = fácil, 15,5 = difícil) |
+| `lat` / `lng` | posição no mapa |
 
-## Atribuicao obrigatoria
+---
 
-O mapa exibe automaticamente os creditos do OpenStreetMap e do Stadia Maps.
-Nao remova: e exigencia da licenca (ODbL).
+## Deploy
+
+O deploy é automático: todo `git push` para a `main` dispara um novo build na
+Vercel. O plano Hobby permite 100 deploys por dia.
+
+**Passo obrigatório uma única vez:** cadastrar o domínio de produção no Stadia
+Maps, em client.stadiamaps.com/dashboard → Manage Properties → Authentication
+Configuration. Sem isso o limite de requisições é bem mais apertado. Não é
+preciso chave de API nem variável de ambiente — só o domínio.
+
+---
+
+## Dois bugs do MapLibre que custaram caro
+
+Ficam documentados porque o sintoma dos dois é idêntico e enganoso: **tela ou
+mapa em branco, sem nenhum erro no console.**
+
+**1. Sem export default.** O `maplibre-gl` v6 exporta apenas nomes. O
+`import maplibregl from 'maplibre-gl'` devolve `undefined` e derruba a
+aplicação inteira. O correto é
+`import { Map, Marker, Popup } from 'maplibre-gl'`.
+
+**2. O Web Worker não é encontrado.** O MapLibre decodifica os tiles num Web
+Worker, e o Vite não consegue rastrear o caminho dele sozinho — nem em
+desenvolvimento, nem no build. Sem o worker, o estilo do mapa nunca termina de
+carregar e a tela fica branca em silêncio. A correção é apontar o worker
+explicitamente:
+
+```js
+import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
+setWorkerUrl(workerUrl)
+```
+
+Um detalhe traiçoeiro: o `optimizeDeps: { exclude: ['maplibre-gl'] }` no
+`vite.config.js` resolve o problema **apenas em desenvolvimento**. O build de
+produção passa por outro caminho e continua quebrado até o `setWorkerUrl`.
+
+**Bônus:** o evento `idle` do MapLibre só dispara quando todos os tiles
+carregam. Como alguns tiles retornam erro em certos zooms, um único tile
+quebrado trava o evento para sempre. Para reagir a movimentos do mapa, use
+`moveend`, que depende só da câmera.
+
+---
+
+## Atribuição
+
+O mapa exibe automaticamente os créditos do MapLibre, Stadia Maps, OpenMapTiles
+e OpenStreetMap. **Não remova** — é exigência da licença ODbL.
+
+A imagem da Moema é a mascote da Universidade de Fortaleza e pertence à Unifor.
