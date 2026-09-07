@@ -66,14 +66,6 @@ Resultado da última execução para Fortaleza:
 
 ---
 
-## Como funciona o ranking
-
-O OpenStreetMap não tem nota nem ranking de popularidade como o Google. A
-relevância é calculada em `src/lib/ranking.js`.
-
-
----
-
 ## Estrutura
 
 ```
