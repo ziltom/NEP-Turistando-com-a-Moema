@@ -136,37 +136,6 @@ Maps, em client.stadiamaps.com/dashboard → Manage Properties → Authenticatio
 Configuration. Sem isso o limite de requisições é bem mais apertado. Não é
 preciso chave de API nem variável de ambiente — só o domínio.
 
----
-
-## Dois bugs do MapLibre que custaram caro
-
-Ficam documentados porque o sintoma dos dois é idêntico e enganoso: **tela ou
-mapa em branco, sem nenhum erro no console.**
-
-**1. Sem export default.** O `maplibre-gl` v6 exporta apenas nomes. O
-`import maplibregl from 'maplibre-gl'` devolve `undefined` e derruba a
-aplicação inteira. O correto é
-`import { Map, Marker, Popup } from 'maplibre-gl'`.
-
-**2. O Web Worker não é encontrado.** O MapLibre decodifica os tiles num Web
-Worker, e o Vite não consegue rastrear o caminho dele sozinho — nem em
-desenvolvimento, nem no build. Sem o worker, o estilo do mapa nunca termina de
-carregar e a tela fica branca em silêncio. A correção é apontar o worker
-explicitamente:
-
-```js
-import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
-setWorkerUrl(workerUrl)
-```
-
-Um detalhe traiçoeiro: o `optimizeDeps: { exclude: ['maplibre-gl'] }` no
-`vite.config.js` resolve o problema **apenas em desenvolvimento**. O build de
-produção passa por outro caminho e continua quebrado até o `setWorkerUrl`.
-
-**Bônus:** o evento `idle` do MapLibre só dispara quando todos os tiles
-carregam. Como alguns tiles retornam erro em certos zooms, um único tile
-quebrado trava o evento para sempre. Para reagir a movimentos do mapa, use
-`moveend`, que depende só da câmera.
 
 ---
 
