@@ -10,8 +10,11 @@ Mapa interativo de Fortaleza com pontos escondidos e destaques turísticos por
 
 ## O que o site faz
 
+O principal objetivo é conhecer os pontos turísticos de Fortaleza com
+gamificação.
+
 **1. Caça à Moema.** Seis Moemas estão escondidas em bairros diferentes de
-Fortaleza. Cada uma só aparece a partir de um nível de zoom próprio — quanto
+Fortaleza. Cada uma só aparece a partir de um nível de zoom próprio. Quanto
 mais escondida, mais é preciso explorar o mapa. Ao encontrar uma silhueta e
 clicar nela, a Moema é revelada e o progresso fica salvo no navegador.
 
@@ -139,9 +142,19 @@ preciso chave de API nem variável de ambiente — só o domínio.
 
 ---
 
+## GABARITO
+Confira onde estão as emas:
+
+01 - Parque do Cocó
+02 - Beira-mar
+03 - Praça do Ferreira
+04 - Unifor
+05 - Praia do Futuro
+06 - Dragão do Mar
+
 ## Atribuição
 
 O mapa exibe automaticamente os créditos do MapLibre, Stadia Maps, OpenMapTiles
-e OpenStreetMap. **Não remova** — é exigência da licença ODbL.
+e OpenStreetMap. — é exigência da licença ODbL.
 
 A imagem da Moema é a mascote da Universidade de Fortaleza e pertence à Unifor.
