@@ -1,0 +1,56 @@
+[
+  {
+    "id": "moema-coco",
+    "nome": "Moema do Cocó",
+    "lat": -3.75,
+    "lng": -38.483,
+    "zoomMinimo": 12.5,
+    "dica": "Entre os manguezais, no pulmão verde da cidade",
+    "descricao": "O Parque do Cocó é a maior área verde urbana de Fortaleza. Foi aqui que ela começou o passeio."
+  },
+  {
+    "id": "moema-beira-mar",
+    "nome": "Moema da Beira-Mar",
+    "lat": -3.7245,
+    "lng": -38.495,
+    "zoomMinimo": 13.5,
+    "dica": "Onde a cidade encontra o mar",
+    "descricao": "Na orla do Meireles, entre o calçadão e a feirinha de artesanato."
+  },
+  {
+    "id": "moema-centro",
+    "nome": "Moema do Centro",
+    "lat": -3.729,
+    "lng": -38.527,
+    "zoomMinimo": 14,
+    "dica": "No coração antigo da cidade",
+    "descricao": "Perto da Praça do Ferreira, o ponto de encontro mais tradicional de Fortaleza."
+  },
+  {
+    "id": "moema-unifor",
+    "nome": "Moema do Campus",
+    "lat": -3.7686,
+    "lng": -38.4783,
+    "zoomMinimo": 14.5,
+    "dica": "Onde tudo começou",
+    "descricao": "No campus da Unifor. Tecnicamente, a casa dela."
+  },
+  {
+    "id": "moema-futuro",
+    "nome": "Moema da Praia do Futuro",
+    "lat": -3.742,
+    "lng": -38.452,
+    "zoomMinimo": 15,
+    "dica": "Onde as barracas olham o nascente",
+    "descricao": "Na praia mais movimentada da cidade, entre as barracas."
+  },
+  {
+    "id": "moema-dragao",
+    "nome": "Moema do Dragão",
+    "lat": -3.7205,
+    "lng": -38.525,
+    "zoomMinimo": 15.5,
+    "dica": "A mais escondida: perto da cultura e do cinema",
+    "descricao": "No Centro Dragão do Mar, entre exposições, cinema e a Praia de Iracema."
+  }
+]

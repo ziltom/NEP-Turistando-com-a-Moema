@@ -1,0 +1,155 @@
+:root {
+  --cor-painel: rgba(255, 255, 255, 0.97);
+  --cor-texto: #1e293b;
+  --cor-suave: #64748b;
+  --cor-borda: #e2e8f0;
+  --cor-moema: #2a9d8f;
+  --cor-turistico: #e76f51;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--cor-texto);
+}
+
+.app { position: relative; height: 100%; }
+.mapa { position: absolute; inset: 0; }
+
+/* ---------- Marcadores das Moemas ---------- */
+
+.marcador {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-image: url('/moema/moema-silhueta.png');
+  background-size: cover;
+  background-position: center;
+  border: 3px solid rgba(255, 255, 255, 0.75);
+  box-shadow: 0 3px 10px rgba(15, 23, 42, 0.35);
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.marcador:hover { transform: scale(1.15); border-color: #fff; }
+
+.marcador.descoberto {
+  background-image: url('/moema/moema-pin.png');
+  border-color: #fff;
+  box-shadow: 0 3px 14px rgba(42, 157, 143, 0.55);
+  animation: revelar 0.5s ease;
+}
+
+.marcador.oculto { display: none; }
+
+@keyframes revelar {
+  0%   { transform: scale(0.3) rotate(-20deg); }
+  60%  { transform: scale(1.25) rotate(6deg); }
+  100% { transform: scale(1) rotate(0); }
+}
+
+/* ---------- Marcadores dos pontos turisticos ---------- */
+
+.marcador-turistico {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--cor-turistico);
+  border: 2px solid #fff;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.3);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.marcador-turistico:hover { transform: scale(1.2); }
+
+/* ---------- Painel lateral ---------- */
+
+.painel {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 10;
+  width: 280px;
+  max-height: calc(100% - 32px);
+  overflow-y: auto;
+  padding: 18px 20px;
+  border-radius: 14px;
+  background: var(--cor-painel);
+  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.18);
+}
+
+.painel h1 { margin: 0 0 12px; font-size: 1.15rem; }
+
+.painel h2 {
+  margin: 20px 0 8px;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--cor-suave);
+}
+
+.contador { font-size: 0.95rem; margin-bottom: 10px; }
+.contador strong { font-size: 1.5rem; color: var(--cor-moema); }
+
+.barra { height: 6px; border-radius: 999px; background: var(--cor-borda); overflow: hidden; }
+.barra-preenchida { height: 100%; background: var(--cor-moema); transition: width 0.4s ease; }
+
+.dicas { margin: 0; padding-left: 18px; font-size: 0.85rem; color: var(--cor-suave); line-height: 1.6; }
+
+.completo { margin: 14px 0 0; font-size: 0.9rem; color: var(--cor-moema); font-weight: 600; }
+
+/* ---------- Destaques turisticos ---------- */
+
+.destaques { margin-top: 6px; border-top: 1px solid var(--cor-borda); padding-top: 4px; }
+
+.destaques-vazio { margin: 0; font-size: 0.8rem; color: var(--cor-suave); line-height: 1.5; }
+
+.destaques-lista { list-style: none; margin: 0; padding: 0; }
+
+.destaques-lista li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.destaques-lista li:last-child { border-bottom: none; }
+
+.destaque-num {
+  flex: 0 0 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--cor-turistico);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.destaque-info { display: flex; flex-direction: column; gap: 2px; }
+.destaque-info strong { font-size: 0.85rem; line-height: 1.3; }
+.destaque-info em { font-style: normal; font-size: 0.72rem; color: var(--cor-suave); }
+
+/* ---------- Popups ---------- */
+
+.maplibregl-popup-content { border-radius: 10px; padding: 12px 14px; font-size: 0.85rem; max-width: 240px; }
+.maplibregl-popup-content strong { display: block; margin-bottom: 4px; }
+.maplibregl-popup-content p { margin: 0; color: var(--cor-suave); font-size: 0.78rem; }
+.popup-img { width: 100%; border-radius: 6px; margin-bottom: 8px; display: block; }
+
+@media (max-width: 640px) {
+  .painel { width: auto; right: 16px; max-height: 45%; }
+}

@@ -1,0 +1,3726 @@
+[
+ {
+  "id": "node-265203726",
+  "nome": "Cristo Redentor",
+  "lat": -3.723778,
+  "lng": -38.520005,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-2509034620",
+  "nome": "Teatro Celina Queiroz",
+  "lat": -3.76753,
+  "lng": -38.480217,
+  "categoria": "theatre"
+ },
+ {
+  "id": "node-3657726979",
+  "nome": "Interceptor Oceânico",
+  "lat": -3.725587,
+  "lng": -38.495455,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-3663324345",
+  "nome": "Estátua Iracema Guardiã",
+  "lat": -3.720569,
+  "lng": -38.509568,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-3717076040",
+  "nome": "Museu Mundo Livre",
+  "lat": -3.746113,
+  "lng": -38.573464,
+  "categoria": "museum"
+ },
+ {
+  "id": "node-3772606941",
+  "nome": "Quadrados",
+  "lat": -3.7388,
+  "lng": -38.569375,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-3838358653",
+  "nome": "Estátua de Manuel Dias Branco",
+  "lat": -3.755926,
+  "lng": -38.523655,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-3874529581",
+  "nome": "Forte Schoonenborch",
+  "lat": -3.722736,
+  "lng": -38.524679,
+  "categoria": "attraction"
+ },
+ {
+  "id": "node-3977332200",
+  "nome": "Cruzeiro de Santiago",
+  "lat": -3.694014,
+  "lng": -38.586242,
+  "categoria": "attraction"
+ },
+ {
+  "id": "node-4151745692",
+  "nome": "Freedom of Tattoo",
+  "lat": -3.73988,
+  "lng": -38.503754,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-4238442170",
+  "nome": "Cruzeiro",
+  "lat": -3.742454,
+  "lng": -38.465717,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-4317759292",
+  "nome": "Ponte dos Pescadores",
+  "lat": -3.717685,
+  "lng": -38.511541,
+  "categoria": "attraction"
+ },
+ {
+  "id": "node-4392042997",
+  "nome": "Astrolábio",
+  "lat": -3.733275,
+  "lng": -38.497386,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-4464369963",
+  "nome": "Estátuas",
+  "lat": -3.882964,
+  "lng": -38.612602,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-4466530090",
+  "nome": "Mercado Municipal José Walter",
+  "lat": -3.834824,
+  "lng": -38.556564,
+  "categoria": "market"
+ },
+ {
+  "id": "node-4472084188",
+  "nome": "Mercado Parangaba",
+  "lat": -3.774021,
+  "lng": -38.562653,
+  "categoria": "market"
+ },
+ {
+  "id": "node-4486159677",
+  "nome": "Mercado dos Peixes (Montese)",
+  "lat": -3.762437,
+  "lng": -38.546406,
+  "categoria": "market"
+ },
+ {
+  "id": "node-4743315528",
+  "nome": "Estátua de Iracema e Martim",
+  "lat": -3.723055,
+  "lng": -38.484349,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-4876520360",
+  "nome": "Mercadinho Levi",
+  "lat": -3.795013,
+  "lng": -38.546939,
+  "categoria": "market"
+ },
+ {
+  "id": "node-4876530759",
+  "nome": "Mercadinho Vitória",
+  "lat": -3.797233,
+  "lng": -38.543617,
+  "categoria": "market"
+ },
+ {
+  "id": "node-4995944619",
+  "nome": "Vista para o Rio Cocó",
+  "lat": -3.752477,
+  "lng": -38.484465,
+  "categoria": "attraction"
+ },
+ {
+  "id": "node-4999622407",
+  "nome": "Vista para as lagoas do Parque do Cocó",
+  "lat": -3.749604,
+  "lng": -38.484562,
+  "categoria": "attraction"
+ },
+ {
+  "id": "node-5150951058",
+  "nome": "Mercantil Albuquerque",
+  "lat": -3.810345,
+  "lng": -38.59055,
+  "categoria": "market",
+  "telefone": true
+ },
+ {
+  "id": "node-5178235372",
+  "nome": "Casa de Rodolfo Teófilo",
+  "lat": -3.858495,
+  "lng": -38.585246,
+  "categoria": "attraction"
+ },
+ {
+  "id": "node-5270342548",
+  "nome": "Centro Administrativo Governador Vígilio Távora",
+  "lat": -3.808578,
+  "lng": -38.490072,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-5626829562",
+  "nome": "Santa da Praça do HM",
+  "lat": -3.739846,
+  "lng": -38.568494,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-5725971046",
+  "nome": "Estátua Professor Francisco José de Abreu Matos",
+  "lat": -3.746537,
+  "lng": -38.57507,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-6018178152",
+  "nome": "Estátua do Patativa do Assaré",
+  "lat": -3.721759,
+  "lng": -38.520439,
+  "categoria": "memorial"
+ },
+ {
+  "id": "node-6198220100",
+  "nome": "Estátua de Santos Dumont",
+  "lat": -3.772477,
+  "lng": -38.535444,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-6230818830",
+  "nome": "Estátua Nossa Senhora de Fátima",
+  "lat": -3.75179,
+  "lng": -38.525951,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-6303412726",
+  "nome": "Instituto do Ceará",
+  "lat": -3.732273,
+  "lng": -38.53036,
+  "categoria": "museum",
+  "site": true,
+  "telefone": true
+ },
+ {
+  "id": "node-6366188249",
+  "nome": "Marco Zero de Fortaleza",
+  "lat": -3.694,
+  "lng": -38.58625,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-6391137578",
+  "nome": "O Ginasta",
+  "lat": -3.769876,
+  "lng": -38.476429,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-6393748959",
+  "nome": "Vagão de Carga",
+  "lat": -3.731931,
+  "lng": -38.544574,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-6394074185",
+  "nome": "Estatua Farias Brito",
+  "lat": -3.73166,
+  "lng": -38.543264,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-6394363825",
+  "nome": "Mural Acidum Project - EVA",
+  "lat": -3.735555,
+  "lng": -38.534805,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-6401530159",
+  "nome": "Monumento Hexágono",
+  "lat": -3.76417,
+  "lng": -38.509797,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-6411508241",
+  "nome": "Placa de inauguração da praça Bosque dos Ferroviaros",
+  "lat": -3.732857,
+  "lng": -38.544392,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-6416376630",
+  "nome": "Feirinha São Cristóvão",
+  "lat": -3.829479,
+  "lng": -38.513504,
+  "categoria": "market"
+ },
+ {
+  "id": "node-6440630692",
+  "nome": "Maria Fumaça",
+  "lat": -3.8778,
+  "lng": -38.624994,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-6497838014",
+  "nome": "Marco de inauguração",
+  "lat": -3.840529,
+  "lng": -38.591699,
+  "categoria": "memorial"
+ },
+ {
+  "id": "node-6577171848",
+  "nome": "Busto",
+  "lat": -3.751839,
+  "lng": -38.525773,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-6577171867",
+  "nome": "Nossa Senhora de Fátima",
+  "lat": -3.753705,
+  "lng": -38.526986,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-6577601361",
+  "nome": "Letreiro de Aquiraz",
+  "lat": -3.89798,
+  "lng": -38.40264,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-6589712222",
+  "nome": "Jornal de Aço",
+  "lat": -3.73961,
+  "lng": -38.524986,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-6621391834",
+  "nome": "Mercadinho Raimundo",
+  "lat": -3.795146,
+  "lng": -38.594349,
+  "categoria": "market"
+ },
+ {
+  "id": "node-6621455534",
+  "nome": "Mercadinho Rossivando Pinheiro",
+  "lat": -3.789805,
+  "lng": -38.599015,
+  "categoria": "market"
+ },
+ {
+  "id": "node-6621459779",
+  "nome": "Mercadinho",
+  "lat": -3.792651,
+  "lng": -38.597586,
+  "categoria": "market"
+ },
+ {
+  "id": "node-6622027836",
+  "nome": "Mercantil Melo",
+  "lat": -3.790585,
+  "lng": -38.601529,
+  "categoria": "market"
+ },
+ {
+  "id": "node-6622027838",
+  "nome": "Mercadinho Jaguaretama",
+  "lat": -3.789832,
+  "lng": -38.603919,
+  "categoria": "market"
+ },
+ {
+  "id": "node-6624991060",
+  "nome": "1001 Variedades",
+  "lat": -3.791583,
+  "lng": -38.597979,
+  "categoria": "market"
+ },
+ {
+  "id": "node-6635873587",
+  "nome": "Mercadinho Rosa de Saron",
+  "lat": -3.813482,
+  "lng": -38.596627,
+  "categoria": "market"
+ },
+ {
+  "id": "node-6651366327",
+  "nome": "Estátua de Dom Pedro II",
+  "lat": -3.72427,
+  "lng": -38.525195,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-6679914162",
+  "nome": "Grafite Menina",
+  "lat": -3.72276,
+  "lng": -38.541198,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-6791664821",
+  "nome": "Museu da Fotografia Fortaleza",
+  "lat": -3.734436,
+  "lng": -38.48906,
+  "categoria": "museum",
+  "site": true,
+  "telefone": true
+ },
+ {
+  "id": "node-6828586474",
+  "nome": "Busto Cap. Capelão Manoel A. Soares",
+  "lat": -3.761493,
+  "lng": -38.520233,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-6828587525",
+  "nome": "Monumento a Santos Dumont",
+  "lat": -3.762682,
+  "lng": -38.520866,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-6828587545",
+  "nome": "Monumento dos Oficiais da Aeronáutica",
+  "lat": -3.763604,
+  "lng": -38.520868,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-6828587546",
+  "nome": "Momumento Cinzas das Bandeiras Nacionais",
+  "lat": -3.763889,
+  "lng": -38.520898,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-6852479871",
+  "nome": "Fonte dos Cavalinhos",
+  "lat": -3.731228,
+  "lng": -38.527997,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-6916279416",
+  "nome": "Marco de Requalificação",
+  "lat": -3.766246,
+  "lng": -38.569226,
+  "categoria": "memorial"
+ },
+ {
+  "id": "node-6927430245",
+  "nome": "Placa Casa Elisabete de Almeida",
+  "lat": -3.734922,
+  "lng": -38.53332,
+  "categoria": "memorial"
+ },
+ {
+  "id": "node-7099824066",
+  "nome": "São Francisco de Assis",
+  "lat": -3.785947,
+  "lng": -38.51738,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-7115367447",
+  "nome": "grafite vivace",
+  "lat": -3.70775,
+  "lng": -38.590295,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-7215360836",
+  "nome": "Busto de Luís França",
+  "lat": -3.708715,
+  "lng": -38.566953,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-7313158548",
+  "nome": "Minimuseu Firmeza",
+  "lat": -3.809772,
+  "lng": -38.579366,
+  "categoria": "gallery"
+ },
+ {
+  "id": "node-7468781661",
+  "nome": "Dragão",
+  "lat": -3.777973,
+  "lng": -38.579322,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-7792950943",
+  "nome": "NÓS ♥ MUCURIPE",
+  "lat": -3.721477,
+  "lng": -38.477633,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-8042618634",
+  "nome": "Polo de Artesanato da Beira-Mar",
+  "lat": -3.725264,
+  "lng": -38.496478,
+  "categoria": "yes"
+ },
+ {
+  "id": "node-8517981899",
+  "nome": "Oratorio de Nossa Senhora de Fátima",
+  "lat": -3.869802,
+  "lng": -38.616496,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-8616371695",
+  "nome": "Iracema 140 anos",
+  "lat": -3.759536,
+  "lng": -38.47946,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-9109442227",
+  "nome": "Lupus Bier",
+  "lat": -3.71934,
+  "lng": -38.516673,
+  "categoria": "theatre",
+  "site": true,
+  "telefone": true
+ },
+ {
+  "id": "node-9445146107",
+  "nome": "Parque Rachel de Queiroz",
+  "lat": -3.73354,
+  "lng": -38.569226,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-9530316952",
+  "nome": "Nossa Senhora das Graças",
+  "lat": -3.71293,
+  "lng": -38.548237,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-9567175362",
+  "nome": "Escola Técnica Federal do Ceará",
+  "lat": -3.74416,
+  "lng": -38.535693,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-9684100713",
+  "nome": "Arena do Humor",
+  "lat": -3.725027,
+  "lng": -38.491824,
+  "categoria": "theatre"
+ },
+ {
+  "id": "node-9768349410",
+  "nome": "Busto Adahil Barreto",
+  "lat": -3.7533,
+  "lng": -38.49906,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-9768349411",
+  "nome": "Monumento Parque do Rio Cocó",
+  "lat": -3.753062,
+  "lng": -38.499147,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-9768408728",
+  "nome": "COCÓ",
+  "lat": -3.753337,
+  "lng": -38.499186,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-9784329215",
+  "nome": "Imagem de Nossa Senhora",
+  "lat": -3.738857,
+  "lng": -38.499561,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-9802593417",
+  "nome": "Rabequeiro",
+  "lat": -3.723261,
+  "lng": -38.529748,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-10011487647",
+  "nome": "DTCEA-FZ",
+  "lat": -3.774324,
+  "lng": -38.531748,
+  "categoria": "memorial"
+ },
+ {
+  "id": "node-10148407038",
+  "nome": "Galeria de Arte Danielle Araújo",
+  "lat": -3.735646,
+  "lng": -38.495087,
+  "categoria": "gallery"
+ },
+ {
+  "id": "node-10148408323",
+  "nome": "Urban Arts",
+  "lat": -3.739317,
+  "lng": -38.497419,
+  "categoria": "gallery"
+ },
+ {
+  "id": "node-10173764769",
+  "nome": "Pintura afresco",
+  "lat": -3.735398,
+  "lng": -38.494938,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-10173774862",
+  "nome": "Escultura em LED",
+  "lat": -3.735136,
+  "lng": -38.494686,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-10173794533",
+  "nome": "Mural pintura viva Elabore",
+  "lat": -3.735294,
+  "lng": -38.494292,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-10600061434",
+  "nome": "Monumento ao Jangadeiro",
+  "lat": -3.72269,
+  "lng": -38.482613,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-10650541922",
+  "nome": "Museu Ferroviário Estação João Felipe",
+  "lat": -3.721704,
+  "lng": -38.530504,
+  "categoria": "museum",
+  "site": true
+ },
+ {
+  "id": "node-10650541923",
+  "nome": "Mercado Gastronômico",
+  "lat": -3.721453,
+  "lng": -38.530159,
+  "categoria": "market"
+ },
+ {
+  "id": "node-10879790387",
+  "nome": "Mercadinho Amanda",
+  "lat": -3.714619,
+  "lng": -38.574393,
+  "categoria": "market"
+ },
+ {
+  "id": "node-11014197464",
+  "nome": "Museu da Cultura Cearense",
+  "lat": -3.723192,
+  "lng": -38.51981,
+  "categoria": "museum",
+  "site": true,
+  "telefone": true
+ },
+ {
+  "id": "node-11014197465",
+  "nome": "Museu de Arte Contemporânea do Ceará",
+  "lat": -3.722631,
+  "lng": -38.520291,
+  "categoria": "museum",
+  "site": true
+ },
+ {
+  "id": "node-11068038989",
+  "nome": "\"EU AMO ITAITINGA\"",
+  "lat": -3.861174,
+  "lng": -38.536183,
+  "categoria": "attraction"
+ },
+ {
+  "id": "node-11184346747",
+  "nome": "Museu do Ceará",
+  "lat": -3.726437,
+  "lng": -38.526583,
+  "categoria": "museum",
+  "wikidata": true,
+  "wikipedia": true,
+  "site": true,
+  "telefone": true,
+  "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Pal%C3%A1cio%20Senador%20Alencar.JPG?width=400"
+ },
+ {
+  "id": "node-11329346992",
+  "nome": "A Casa Encantada do Papai Noel",
+  "lat": -3.738542,
+  "lng": -38.474347,
+  "categoria": "attraction"
+ },
+ {
+  "id": "node-11375958626",
+  "nome": "Doutor Carlos Alberto Studart Gomes",
+  "lat": -3.739057,
+  "lng": -38.498732,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-11383915017",
+  "nome": "Feira do Mercado dos Pinhões",
+  "lat": -3.72667,
+  "lng": -38.515636,
+  "categoria": "market"
+ },
+ {
+  "id": "node-11383915018",
+  "nome": "Feira Orgânica do Mercado dos Pinhões",
+  "lat": -3.726823,
+  "lng": -38.515188,
+  "categoria": "market"
+ },
+ {
+  "id": "node-11459516969",
+  "nome": "Beira Mar de Todos",
+  "lat": -3.723465,
+  "lng": -38.503903,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-11497674150",
+  "nome": "Centro de Memória Raízes da Sabiaguaba",
+  "lat": -3.781592,
+  "lng": -38.436374,
+  "categoria": "museum"
+ },
+ {
+  "id": "node-11520434998",
+  "nome": "Eu ♥ Café com Tapioca",
+  "lat": -3.84028,
+  "lng": -38.479502,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-11635536685",
+  "nome": "Espaço Gastronômico Cultural Albertu's Restaurante",
+  "lat": -3.699218,
+  "lng": -38.58776,
+  "categoria": "museum",
+  "telefone": true
+ },
+ {
+  "id": "node-11689569960",
+  "nome": "Busto de Getúlio Vargas",
+  "lat": -3.803587,
+  "lng": -38.52826,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-11740388310",
+  "nome": "Monumento de Getúlio Vargas",
+  "lat": -3.806525,
+  "lng": -38.531213,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-11897776784",
+  "nome": "Acervo Mucuripe",
+  "lat": -3.728213,
+  "lng": -38.486821,
+  "categoria": "museum",
+  "site": true
+ },
+ {
+  "id": "node-12206705783",
+  "nome": "Museu do Humor Cearense",
+  "lat": -3.73682,
+  "lng": -38.535219,
+  "categoria": "museum",
+  "site": true,
+  "telefone": true
+ },
+ {
+  "id": "node-12566304801",
+  "nome": "Carne e Pedra",
+  "lat": -3.718961,
+  "lng": -38.514249,
+  "categoria": "memorial"
+ },
+ {
+  "id": "node-12566323001",
+  "nome": "La Femme Bateau",
+  "lat": -3.716274,
+  "lng": -38.516399,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-12684689879",
+  "nome": "Créer Galeria",
+  "lat": -3.72593,
+  "lng": -38.504453,
+  "categoria": "gallery",
+  "telefone": true
+ },
+ {
+  "id": "node-12886438001",
+  "nome": "Mercadinho e Frigorífico O Elias",
+  "lat": -3.770364,
+  "lng": -38.583303,
+  "categoria": "market"
+ },
+ {
+  "id": "node-12902568925",
+  "nome": "Feira do João XXIII",
+  "lat": -3.76823,
+  "lng": -38.58309,
+  "categoria": "market"
+ },
+ {
+  "id": "node-13059274801",
+  "nome": "Teatro Antonieta Noronha",
+  "lat": -3.725356,
+  "lng": -38.522455,
+  "categoria": "theatre"
+ },
+ {
+  "id": "node-13189039371",
+  "nome": "MUDANDO REFLORESTAR",
+  "lat": -3.895478,
+  "lng": -38.554052,
+  "categoria": "park"
+ },
+ {
+  "id": "node-13360100355",
+  "nome": "Ceará Fascinante",
+  "lat": -3.722379,
+  "lng": -38.50539,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-13437996275",
+  "nome": "Almirante Tamandaré",
+  "lat": -3.725577,
+  "lng": -38.493194,
+  "categoria": "memorial"
+ },
+ {
+  "id": "node-13575551615",
+  "nome": "Santa Edwiges",
+  "lat": -3.718342,
+  "lng": -38.533682,
+  "categoria": "artwork"
+ },
+ {
+  "id": "node-13620731401",
+  "nome": "Jardim das plantações",
+  "lat": -3.760938,
+  "lng": -38.626113,
+  "categoria": "attraction"
+ },
+ {
+  "id": "node-14039871939",
+  "nome": "Torre da Vida",
+  "lat": -3.876877,
+  "lng": -38.615864,
+  "categoria": "monument"
+ },
+ {
+  "id": "node-14081707401",
+  "nome": "Ecomuseu Natural do Mangue",
+  "lat": -3.772231,
+  "lng": -38.435388,
+  "categoria": "museum",
+  "site": true,
+  "telefone": true
+ },
+ {
+  "id": "node-14141857001",
+  "nome": "Teatro Claro MAIS Fortaleza",
+  "lat": -3.794082,
+  "lng": -38.479593,
+  "categoria": "theatre",
+  "site": true,
+  "telefone": true
+ },
+ {
+  "id": "way-24395456",
+  "nome": "Mercado Central de Fortaleza",
+  "lat": -3.72343,
+  "lng": -38.52384,
+  "categoria": "market",
+  "wikidata": true,
+  "wikipedia": true,
+  "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercado%20Central%20de%20Fortaleza%2002.jpg?width=400"
+ },
+ {
+  "id": "way-24419367",
+  "nome": "Parque Urbano da Liberdade",
+  "lat": -3.731427,
+  "lng": -38.525794,
+  "categoria": "viewpoint"
+ },
+ {
+  "id": "way-24439875",
+  "nome": "Praça Capistrano de Abreu",
+  "lat": -3.725536,
+  "lng": -38.533341,
+  "categoria": "park"
+ },
+ {
+  "id": "way-24439905",
+  "nome": "Praça dos Leões",
+  "lat": -3.726903,
+  "lng": -38.526284,
+  "categoria": "park"
+ },
+ {
+  "id": "way-183802041",
+  "nome": "Praça João Gentil",
+  "lat": -3.743077,
+  "lng": -38.537729,
+  "categoria": "park",
+  "wikidata": true,
+  "wikipedia": true
+ },
+ {
+  "id": "way-183990155",
+  "nome": "Praça das Flores",
+  "lat": -3.739363,
+  "lng": -38.49878,
+  "categoria": "park"
+ },
+ {
+  "id": "way-184280263",
+  "nome": "Jardim Japonês Jusaku Fujita",
+  "lat": -3.725403,
+  "lng": -38.490938,
+  "categoria": "park",
+  "wikidata": true,
+  "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Jardim%20Japon%C3%AAs%20de%20Fortaleza%2016.jpg?width=400"
+ },
+ {
+  "id": "way-230217258",
+  "nome": "Praça dos Marítimos",
+  "lat": -3.756986,
+  "lng": -38.537432,
+  "categoria": "park",
+  "site": true
+ },
+ {
+  "id": "way-243227511",
+  "nome": "Antiga Cadeia Pública",
+  "lat": -3.721894,
+  "lng": -38.528643,
+  "categoria": "building"
+ },
+ {
+  "id": "way-243496153",
+  "nome": "Monumento ao Vaqueiro",
+  "lat": -3.77208,
+  "lng": -38.535107,
+  "categoria": "monument"
+ },
+ {
+  "id": "way-243788981",
+  "nome": "Praça Coração de Jesus",
+  "lat": -3.732491,
+  "lng": -38.526207,
+  "categoria": "park"
+ },
+ {
+  "id": "way-248508408",
+  "nome": "Mercado Central",
+  "lat": -3.878553,
+  "lng": -38.61514,
+  "categoria": "market"
+ },
+ {
+  "id": "way-248654356",
+  "nome": "Dorian Sampaio",
+  "lat": -3.880744,
+  "lng": -38.63007,
+  "categoria": "theatre"
+ },
+ {
+  "id": "way-248821100",
+  "nome": "CEASA",
+  "lat": -3.847139,
+  "lng": -38.589223,
+  "categoria": "market"
+ },
+ {
+  "id": "way-256668625",
+  "nome": "Praça do Parque Betânia",
+  "lat": -3.836137,
+  "lng": -38.503491,
+  "categoria": "park"
+ },
+ {
+  "id": "way-260024676",
+  "nome": "Praça Canaã",
+  "lat": -3.801693,
+  "lng": -38.531888,
+  "categoria": "park"
+ },
+ {
+  "id": "way-281852513",
+  "nome": "Mercado Joaquim Távora",
+  "lat": -3.752484,
+  "lng": -38.516443,
+  "categoria": "market"
+ },
+ {
+  "id": "way-288862588",
+  "nome": "Mara Hope",
+  "lat": -3.711292,
+  "lng": -38.523621,
+  "categoria": "attraction",
+  "wikidata": true,
+  "wikipedia": true,
+  "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Mara%20Hope%2C%20navio%20encalhado.JPG?width=400"
+ },
+ {
+  "id": "way-289963904",
+  "nome": "Ponte Velha",
+  "lat": -3.716775,
+  "lng": -38.520008,
+  "categoria": "viewpoint",
+  "wikidata": true,
+  "wikipedia": true,
+  "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Ponte%20Met%C3%A1lica%2003.jpg?width=400"
+ },
+ {
+  "id": "way-316474470",
+  "nome": "Parque Rio Branco",
+  "lat": -3.751715,
+  "lng": -38.519136,
+  "categoria": "park"
+ },
+ {
+  "id": "way-316475254",
+  "nome": "Complexo Esportivo Maravilha",
+  "lat": -3.758462,
+  "lng": -38.520294,
+  "categoria": "park"
+ },
+ {
+  "id": "way-316614002",
+  "nome": "Parque das Iguanas",
+  "lat": -3.789032,
+  "lng": -38.493333,
+  "categoria": "park",
+  "site": true
+ },
+ {
+  "id": "way-327696083",
+  "nome": "Praça da Imprensa",
+  "lat": -3.746025,
+  "lng": -38.502052,
+  "categoria": "park"
+ },
+ {
+  "id": "way-329123343",
+  "nome": "Praça Percide Benício Rodrigues",
+  "lat": -3.708645,
+  "lng": -38.58991,
+  "categoria": "park"
+ },
+ {
+  "id": "way-341025335",
+  "nome": "Pracinha das Docas",
+  "lat": -3.713116,
+  "lng": -38.473455,
+  "categoria": "park"
+ },
+ {
+  "id": "way-352877937",
+  "nome": "Praça Joaquim Nogueira",
+  "lat": -3.738383,
+  "lng": -38.594519,
+  "categoria": "park"
+ },
+ {
+  "id": "way-354974043",
+  "nome": "Museu de Arte da UFC",
+  "lat": -3.740912,
+  "lng": -38.53964,
+  "categoria": "museum"
+ },
+ {
+  "id": "way-354974052",
+  "nome": "Bosque Moreira Campos",
+  "lat": -3.74107,
+  "lng": -38.537889,
+  "categoria": "park"
+ },
+ {
+  "id": "way-357303733",
+  "nome": "Teatro Carlos Câmara",
+  "lat": -3.722517,
+  "lng": -38.528944,
+  "categoria": "theatre",
+  "site": true
+ },
+ {
+  "id": "way-361282718",
+  "nome": "Praça da Bandeira",
+  "lat": -3.732705,
+  "lng": -38.531933,
+  "categoria": "park"
+ },
+ {
+  "id": "way-361282720",
+  "nome": "Praça José Bonifácio",
+  "lat": -3.735591,
+  "lng": -38.529428,
+  "categoria": "park"
+ },
+ {
+  "id": "way-370209391",
+  "nome": "Praça Joaquim Távora",
+  "lat": -3.752654,
+  "lng": -38.516658,
+  "categoria": "park"
+ },
+ {
+  "id": "way-371228845",
+  "nome": "Palácio da Luz",
+  "lat": -3.72742,
+  "lng": -38.526176,
+  "categoria": "building",
+  "wikidata": true,
+  "wikipedia": true,
+  "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Pal%C3%A1cio%20da%20Luz%2006.jpg?width=400"
+ },
+ {
+  "id": "way-371228850",
+  "nome": "Praça Otávio Bonfim",
+  "lat": -3.731645,
+  "lng": -38.543282,
+  "categoria": "park"
+ },
+ {
+  "id": "way-371640712",
+  "nome": "Praça Major Braz",
+  "lat": -3.877931,
+  "lng": -38.625012,
+  "categoria": "park"
+ },
+ {
+  "id": "way-373827768",
+  "nome": "Bosque Campus do Pici",
+  "lat": -3.738667,
+  "lng": -38.570729,
+  "categoria": "park"
+ },
+ {
+  "id": "way-375563431",
+  "nome": "Praça Leonan Onofre",
+  "lat": -3.749334,
+  "lng": -38.475092,
+  "categoria": "park"
+ },
+ {
+  "id": "way-384744277",
+  "nome": "Praça da Avenida H",
+  "lat": -3.775007,
+  "lng": -38.6146,
+  "categoria": "park"
+ },
+ {
+  "id": "way-384744285",
+  "nome": "Praça Uv3",
+  "lat": -3.774111,
+  "lng": -38.612631,
+  "categoria": "park"
+ },
+ {
+  "id": "way-384909535",
+  "nome": "Pracinha da Rua Larga 01",
+  "lat": -3.769863,
+  "lng": -38.608707,
+  "categoria": "park"
+ },
+ {
+  "id": "way-385939106",
+  "nome": "Anfiteatro da Beira Mar Flávio Ponte",
+  "lat": -3.723283,
+  "lng": -38.488633,
+  "categoria": "theatre"
+ },
+ {
+  "id": "way-386335759",
+  "nome": "Praça Patativa do Assaré",
+  "lat": -3.787716,
+  "lng": -38.553864,
+  "categoria": "park"
+ },
+ {
+  "id": "way-394942235",
+  "nome": "Praça Santo Expedito",
+  "lat": -3.758658,
+  "lng": -38.583635,
+  "categoria": "park"
+ },
+ {
+  "id": "way-399557300",
+  "nome": "Praça do Parque Del Sol",
+  "lat": -3.805633,
+  "lng": -38.496928,
+  "categoria": "park"
+ },
+ {
+  "id": "way-416269133",
+  "nome": "Praça Luiza Távora",
+  "lat": -3.731706,
+  "lng": -38.509795,
+  "categoria": "park"
+ },
+ {
+  "id": "way-422241877",
+  "nome": "Praça da CED",
+  "lat": -3.787316,
+  "lng": -38.552805,
+  "categoria": "park"
+ },
+ {
+  "id": "way-430212480",
+  "nome": "Praça dos Eletricitários",
+  "lat": -3.747887,
+  "lng": -38.510691,
+  "categoria": "park"
+ },
+ {
+  "id": "way-430213219",
+  "nome": "Coluna da Hora",
+  "lat": -3.727698,
+  "lng": -38.527599,
+  "categoria": "monument"
+ },
+ {
+  "id": "way-431536388",
+  "nome": "Praça São Cristóvão",
+  "lat": -3.746266,
+  "lng": -38.526448,
+  "categoria": "park"
+ },
+ {
+  "id": "way-432768183",
+  "nome": "Bosque Residencial Iracema",
+  "lat": -3.82934,
+  "lng": -38.424242,
+  "categoria": "park"
+ },
+ {
+  "id": "way-432768917",
+  "nome": "Area Verde Residencial Dunas",
+  "lat": -3.82108,
+  "lng": -38.426794,
+  "categoria": "park"
+ },
+ {
+  "id": "way-432779467",
+  "nome": "Praça Residencial Dunas",
+  "lat": -3.820624,
+  "lng": -38.425299,
+  "categoria": "park"
+ },
+ {
+  "id": "way-432779481",
+  "nome": "Praça Residencial Pacoti",
+  "lat": -3.82494,
+  "lng": -38.426184,
+  "categoria": "park"
+ },
+ {
+  "id": "way-432779483",
+  "nome": "Praça Residencial Iracema",
+  "lat": -3.826208,
+  "lng": -38.42528,
+  "categoria": "park"
+ },
+ {
+  "id": "way-432780048",
+  "nome": "Rotatória Central Alphaville Fortaleza",
+  "lat": -3.823301,
+  "lng": -38.424788,
+  "categoria": "park"
+ },
+ {
+  "id": "way-432917169",
+  "nome": "Praça Residencial Pacoti",
+  "lat": -3.825353,
+  "lng": -38.422861,
+  "categoria": "park"
+ },
+ {
+  "id": "way-434269631",
+  "nome": "Praça Jonas Gomes de Freitas",
+  "lat": -3.734308,
+  "lng": -38.568064,
+  "categoria": "park"
+ },
+ {
+  "id": "way-434287222",
+  "nome": "Museu da Indústria",
+  "lat": -3.723405,
+  "lng": -38.525999,
+  "categoria": "museum",
+  "site": true,
+  "telefone": true
+ },
+ {
+  "id": "way-436414602",
+  "nome": "Praça Ipiranga",
+  "lat": -3.744285,
+  "lng": -38.595095,
+  "categoria": "park"
+ },
+ {
+  "id": "way-436933361",
+  "nome": "Mercadinho Real Box",
+  "lat": -3.735501,
+  "lng": -38.595264,
+  "categoria": "market"
+ },
+ {
+  "id": "way-449704737",
+  "nome": "Praça da 3 Etapa",
+  "lat": -3.8378,
+  "lng": -38.558643,
+  "categoria": "park"
+ },
+ {
+  "id": "way-449717261",
+  "nome": "Calçadão do José Walter",
+  "lat": -3.835632,
+  "lng": -38.555501,
+  "categoria": "park"
+ },
+ {
+  "id": "way-449887966",
+  "nome": "Praça do Diogo",
+  "lat": -3.826484,
+  "lng": -38.555633,
+  "categoria": "park"
+ },
+ {
+  "id": "way-449890268",
+  "nome": "Praça da 24",
+  "lat": -3.826371,
+  "lng": -38.552901,
+  "categoria": "park"
+ },
+ {
+  "id": "way-468416322",
+  "nome": "Praça da Aerolândia",
+  "lat": -3.771294,
+  "lng": -38.516336,
+  "categoria": "park"
+ },
+ {
+  "id": "way-470719451",
+  "nome": "Mercado Público - Cidade dos Funcionários",
+  "lat": -3.795309,
+  "lng": -38.496322,
+  "categoria": "market"
+ },
+ {
+  "id": "way-474084126",
+  "nome": "Praça Roberto Bastos Macambira",
+  "lat": -3.74007,
+  "lng": -38.612171,
+  "categoria": "park"
+ },
+ {
+  "id": "way-474087385",
+  "nome": "Praça Coronel Edilson Moreira da Rocha",
+  "lat": -3.73909,
+  "lng": -38.613962,
+  "categoria": "park"
+ },
+ {
+  "id": "way-475617617",
+  "nome": "Areninha Planalto Ayrton Senna",
+  "lat": -3.828705,
+  "lng": -38.571212,
+  "categoria": "park"
+ },
+ {
+  "id": "way-477407306",
+  "nome": "Praça do Parque Soledade",
+  "lat": -3.73967,
+  "lng": -38.650289,
+  "categoria": "park"
+ },
+ {
+  "id": "way-478747644",
+  "nome": "Praça da 8",
+  "lat": -3.764845,
+  "lng": -38.636326,
+  "categoria": "park"
+ },
+ {
+  "id": "way-478747890",
+  "nome": "Praça da Avenida",
+  "lat": -3.767479,
+  "lng": -38.639917,
+  "categoria": "park"
+ },
+ {
+  "id": "way-479821651",
+  "nome": "Mercado da Jurema",
+  "lat": -3.764353,
+  "lng": -38.619829,
+  "categoria": "market"
+ },
+ {
+  "id": "way-481392750",
+  "nome": "Praçinha de Dança",
+  "lat": -3.717837,
+  "lng": -38.464519,
+  "categoria": "park"
+ },
+ {
+  "id": "way-484153750",
+  "nome": "Praça da Luz (Praça do Novo Oriente)",
+  "lat": -3.844704,
+  "lng": -38.613368,
+  "categoria": "park"
+ },
+ {
+  "id": "way-496736555",
+  "nome": "Praça Manoel Arão de Andrade",
+  "lat": -3.766094,
+  "lng": -38.560353,
+  "categoria": "park"
+ },
+ {
+  "id": "way-499589656",
+  "nome": "Praça Engenheiro Pedro Felipe Borges",
+  "lat": -3.74719,
+  "lng": -38.471229,
+  "categoria": "park"
+ },
+ {
+  "id": "way-503657241",
+  "nome": "Praça Morro do Ouro",
+  "lat": -3.724584,
+  "lng": -38.54427,
+  "categoria": "park"
+ },
+ {
+  "id": "way-506718733",
+  "nome": "Praça da 34",
+  "lat": -3.827042,
+  "lng": -38.557624,
+  "categoria": "park"
+ },
+ {
+  "id": "way-506718734",
+  "nome": "Praça da 36",
+  "lat": -3.828317,
+  "lng": -38.553471,
+  "categoria": "park"
+ },
+ {
+  "id": "way-506718735",
+  "nome": "Praça da Cisterna",
+  "lat": -3.824312,
+  "lng": -38.552016,
+  "categoria": "park"
+ },
+ {
+  "id": "way-526615600",
+  "nome": "EcoPoint",
+  "lat": -3.766093,
+  "lng": -38.576158,
+  "categoria": "park",
+  "site": true
+ },
+ {
+  "id": "way-526615948",
+  "nome": "Praça Fisioterapeuta Fátima Pinheiro",
+  "lat": -3.764118,
+  "lng": -38.580041,
+  "categoria": "park"
+ },
+ {
+  "id": "way-528529767",
+  "nome": "Praça das Artes Leonilson",
+  "lat": -3.794853,
+  "lng": -38.562054,
+  "categoria": "park"
+ },
+ {
+  "id": "way-533578683",
+  "nome": "Anfiteatro",
+  "lat": -3.835591,
+  "lng": -38.55469,
+  "categoria": "theatre"
+ },
+ {
+  "id": "way-533837217",
+  "nome": "Praça da Liberdade (Praça do Acaracuzinho)",
+  "lat": -3.847939,
+  "lng": -38.61387,
+  "categoria": "park"
+ },
+ {
+  "id": "way-543762625",
+  "nome": "Pracinha da Comunidade Espírita da Cidade 2000",
+  "lat": -3.751646,
+  "lng": -38.468278,
+  "categoria": "park"
+ },
+ {
+  "id": "way-543767354",
+  "nome": "Praça do Brás",
+  "lat": -3.761568,
+  "lng": -38.508229,
+  "categoria": "park"
+ },
+ {
+  "id": "way-543795298",
+  "nome": "Campo do PFC",
+  "lat": -3.824621,
+  "lng": -38.556737,
+  "categoria": "park"
+ },
+ {
+  "id": "way-543927512",
+  "nome": "Praça da OAB",
+  "lat": -3.759426,
+  "lng": -38.483855,
+  "categoria": "park"
+ },
+ {
+  "id": "way-545005361",
+  "nome": "Anfiteatro",
+  "lat": -3.807647,
+  "lng": -38.593016,
+  "categoria": "theatre"
+ },
+ {
+  "id": "way-545319990",
+  "nome": "Pracinha Chaves",
+  "lat": -3.770628,
+  "lng": -38.609673,
+  "categoria": "park"
+ },
+ {
+  "id": "way-546212068",
+  "nome": "Parque do Mirasol",
+  "lat": -3.795628,
+  "lng": -38.543034,
+  "categoria": "park"
+ },
+ {
+  "id": "way-546683529",
+  "nome": "Mercado da Aerolândia",
+  "lat": -3.768551,
+  "lng": -38.517001,
+  "categoria": "building"
+ },
+ {
+  "id": "way-547144436",
+  "nome": "Praça do Terminal",
+  "lat": -3.77314,
+  "lng": -38.608214,
+  "categoria": "park"
+ },
+ {
+  "id": "way-547145359",
+  "nome": "Quadradão",
+  "lat": -3.800788,
+  "lng": -38.614332,
+  "categoria": "park"
+ },
+ {
+  "id": "way-547765130",
+  "nome": "Parque do Perfurador",
+  "lat": -3.76945,
+  "lng": -38.477594,
+  "categoria": "park"
+ },
+ {
+  "id": "way-547789879",
+  "nome": "Pracinha do NAMI",
+  "lat": -3.771502,
+  "lng": -38.479138,
+  "categoria": "park"
+ },
+ {
+  "id": "way-548167440",
+  "nome": "Praça do Sumaré",
+  "lat": -3.799717,
+  "lng": -38.53559,
+  "categoria": "park"
+ },
+ {
+  "id": "way-548749162",
+  "nome": "Praça Farias Brito",
+  "lat": -3.819723,
+  "lng": -38.531616,
+  "categoria": "park"
+ },
+ {
+  "id": "way-552219990",
+  "nome": "Anfiteatro do Centro de Tecnologia",
+  "lat": -3.744443,
+  "lng": -38.577124,
+  "categoria": "theatre"
+ },
+ {
+  "id": "way-552219993",
+  "nome": "Area de Convivencia - Engenharia Civil",
+  "lat": -3.743737,
+  "lng": -38.575713,
+  "categoria": "park"
+ },
+ {
+  "id": "way-552420373",
+  "nome": "Parque na UNIFOR",
+  "lat": -3.767275,
+  "lng": -38.475048,
+  "categoria": "park"
+ },
+ {
+  "id": "way-552613953",
+  "nome": "Polo de Lazer Gustavo Braga",
+  "lat": -3.754467,
+  "lng": -38.549008,
+  "categoria": "park"
+ },
+ {
+  "id": "way-552613968",
+  "nome": "Praça do Novo Ideal",
+  "lat": -3.747876,
+  "lng": -38.556865,
+  "categoria": "park"
+ },
+ {
+  "id": "way-552613971",
+  "nome": "Polo de Lazer do Porangabussu",
+  "lat": -3.744042,
+  "lng": -38.550143,
+  "categoria": "park"
+ },
+ {
+  "id": "way-552613972",
+  "nome": "Praça Ari de Sá",
+  "lat": -3.739505,
+  "lng": -38.552732,
+  "categoria": "park"
+ },
+ {
+  "id": "way-553322672",
+  "nome": "Praça da Capela Mãe Rainha",
+  "lat": -3.72789,
+  "lng": -38.556127,
+  "categoria": "park"
+ },
+ {
+  "id": "way-553569386",
+  "nome": "Praça Coronel João Pontes",
+  "lat": -3.728423,
+  "lng": -38.550121,
+  "categoria": "park"
+ },
+ {
+  "id": "way-554097843",
+  "nome": "Praça Radioamador Teobaldo Cesne",
+  "lat": -3.746768,
+  "lng": -38.53217,
+  "categoria": "park"
+ },
+ {
+  "id": "way-554099701",
+  "nome": "Pracinha do Vila Uniao",
+  "lat": -3.760495,
+  "lng": -38.538677,
+  "categoria": "park"
+ },
+ {
+  "id": "way-554111552",
+  "nome": "Praça da Capela São José",
+  "lat": -3.759188,
+  "lng": -38.575761,
+  "categoria": "park"
+ },
+ {
+  "id": "way-554125033",
+  "nome": "Praça da Igreja da Glória",
+  "lat": -3.796928,
+  "lng": -38.500872,
+  "categoria": "park"
+ },
+ {
+  "id": "way-554128960",
+  "nome": "Praça do Giro",
+  "lat": -3.773563,
+  "lng": -38.56207,
+  "categoria": "park"
+ },
+ {
+  "id": "way-554133133",
+  "nome": "Praça Noelzinda Sátiro Santiago",
+  "lat": -3.790482,
+  "lng": -38.578408,
+  "categoria": "park"
+ },
+ {
+  "id": "way-554133146",
+  "nome": "Praça Professor Serrano Bezerra",
+  "lat": -3.739516,
+  "lng": -38.587683,
+  "categoria": "park"
+ },
+ {
+  "id": "way-554276042",
+  "nome": "Bosque do Teatro",
+  "lat": -3.767739,
+  "lng": -38.48004,
+  "categoria": "park"
+ },
+ {
+  "id": "way-554278838",
+  "nome": "Bosque do Altar",
+  "lat": -3.768928,
+  "lng": -38.48146,
+  "categoria": "park"
+ },
+ {
+  "id": "way-556011434",
+  "nome": "Praça Monsenhor Linhares",
+  "lat": -3.745464,
+  "lng": -38.560585,
+  "categoria": "park"
+ },
+ {
+  "id": "way-556191872",
+  "nome": "Praça Alto da Balança",
+  "lat": -3.764142,
+  "lng": -38.509878,
+  "categoria": "park"
+ },
+ {
+  "id": "way-557418603",
+  "nome": "Praça Greenlife",
+  "lat": -3.764678,
+  "lng": -38.48323,
+  "categoria": "park"
+ },
+ {
+  "id": "way-557991214",
+  "nome": "Praça Hilza Diogo Cals",
+  "lat": -3.804189,
+  "lng": -38.584892,
+  "categoria": "park"
+ },
+ {
+  "id": "way-558009721",
+  "nome": "Praça Nossa Sra. de Salete",
+  "lat": -3.75092,
+  "lng": -38.556629,
+  "categoria": "park"
+ },
+ {
+  "id": "way-559570644",
+  "nome": "Parque dos Blocos",
+  "lat": -3.767597,
+  "lng": -38.479454,
+  "categoria": "park"
+ },
+ {
+  "id": "way-563470715",
+  "nome": "Trator",
+  "lat": -3.741781,
+  "lng": -38.576164,
+  "categoria": "monument"
+ },
+ {
+  "id": "way-568966349",
+  "nome": "Praça do Triângulo",
+  "lat": -3.789029,
+  "lng": -38.552328,
+  "categoria": "park"
+ },
+ {
+  "id": "way-568969789",
+  "nome": "Praça da Proex",
+  "lat": -3.787135,
+  "lng": -38.553567,
+  "categoria": "park"
+ },
+ {
+  "id": "way-574090070",
+  "nome": "Feira do Jangurussu",
+  "lat": -3.829575,
+  "lng": -38.520912,
+  "categoria": "market"
+ },
+ {
+  "id": "way-578833863",
+  "nome": "Auditório Castelo Branco e Auditório Iran Raupp",
+  "lat": -3.743719,
+  "lng": -38.536392,
+  "categoria": "theatre"
+ },
+ {
+  "id": "way-588469019",
+  "nome": "Praça 23 de Junho",
+  "lat": -3.88973,
+  "lng": -38.453291,
+  "categoria": "park"
+ },
+ {
+  "id": "way-589000348",
+  "nome": "Praça Presidente Roosevelt (Praça do Jardim America)",
+  "lat": -3.750997,
+  "lng": -38.545894,
+  "categoria": "park"
+ },
+ {
+  "id": "way-595202012",
+  "nome": "Mercado Central de Eusébio",
+  "lat": -3.889602,
+  "lng": -38.449765,
+  "categoria": "market"
+ },
+ {
+  "id": "way-595923191",
+  "nome": "Praça da Assembleia de Deus",
+  "lat": -3.794619,
+  "lng": -38.499841,
+  "categoria": "park"
+ },
+ {
+  "id": "way-595923193",
+  "nome": "Parque Aldeota Sul",
+  "lat": -3.794131,
+  "lng": -38.500236,
+  "categoria": "park"
+ },
+ {
+  "id": "way-598435921",
+  "nome": "Praça Valdemar de Lima",
+  "lat": -3.874394,
+  "lng": -38.622273,
+  "categoria": "park"
+ },
+ {
+  "id": "way-604687730",
+  "nome": "Praça Gonçalves Dias",
+  "lat": -3.742738,
+  "lng": -38.554622,
+  "categoria": "park"
+ },
+ {
+  "id": "way-625465561",
+  "nome": "Parque Urbanizado do Rio Maranguapinho",
+  "lat": -3.795704,
+  "lng": -38.592271,
+  "categoria": "park"
+ },
+ {
+  "id": "way-626769151",
+  "nome": "Praça Vila São José",
+  "lat": -3.71854,
+  "lng": -38.544985,
+  "categoria": "park"
+ },
+ {
+  "id": "way-626788150",
+  "nome": "Monumento em homenagem a Gustavo Barroso",
+  "lat": -3.723392,
+  "lng": -38.540777,
+  "categoria": "monument"
+ },
+ {
+  "id": "way-628601172",
+  "nome": "Praça da 12",
+  "lat": -3.711336,
+  "lng": -38.594801,
+  "categoria": "park"
+ },
+ {
+  "id": "way-628608628",
+  "nome": "Praça do Conj. Plalto da Barra",
+  "lat": -3.713947,
+  "lng": -38.598576,
+  "categoria": "park"
+ },
+ {
+  "id": "way-628608629",
+  "nome": "Praça Beira Rio",
+  "lat": -3.718389,
+  "lng": -38.59741,
+  "categoria": "park"
+ },
+ {
+  "id": "way-632496920",
+  "nome": "Parque Urbano da Lagoa do Mondubim",
+  "lat": -3.804375,
+  "lng": -38.580027,
+  "categoria": "park"
+ },
+ {
+  "id": "way-632496958",
+  "nome": "Parque Urbano da Lagoa do Catão",
+  "lat": -3.826327,
+  "lng": -38.561147,
+  "categoria": "park"
+ },
+ {
+  "id": "way-632497113",
+  "nome": "Parque Urbano da Lagoa de Messejana",
+  "lat": -3.827572,
+  "lng": -38.496306,
+  "categoria": "park"
+ },
+ {
+  "id": "way-632497675",
+  "nome": "Parque Urbano da Lagoa de Maria Vieira",
+  "lat": -3.803793,
+  "lng": -38.508849,
+  "categoria": "park"
+ },
+ {
+  "id": "way-632498251",
+  "nome": "Parque Urbano da Lagoa da Itaperaoba",
+  "lat": -3.783721,
+  "lng": -38.550887,
+  "categoria": "park"
+ },
+ {
+  "id": "way-632498330",
+  "nome": "Parque da Lagoa da Parangaba",
+  "lat": -3.76929,
+  "lng": -38.566453,
+  "categoria": "park"
+ },
+ {
+  "id": "way-638219506",
+  "nome": "Praça do Ciclista",
+  "lat": -3.740948,
+  "lng": -38.525641,
+  "categoria": "park"
+ },
+ {
+  "id": "way-651617293",
+  "nome": "Bosque Associação de Engenheiros Agrônomos do Ceará",
+  "lat": -3.73839,
+  "lng": -38.571697,
+  "categoria": "park"
+ },
+ {
+  "id": "way-657021476",
+  "nome": "Litopraça",
+  "lat": -3.746484,
+  "lng": -38.572653,
+  "categoria": "park"
+ },
+ {
+  "id": "way-657295881",
+  "nome": "Praça de Santa Edwiges",
+  "lat": -3.829661,
+  "lng": -38.466148,
+  "categoria": "park"
+ },
+ {
+  "id": "way-657295882",
+  "nome": "Praça da Lagoa Redonda",
+  "lat": -3.828822,
+  "lng": -38.466066,
+  "categoria": "park"
+ },
+ {
+  "id": "way-657296753",
+  "nome": "Praça 11 de Novembro",
+  "lat": -3.827874,
+  "lng": -38.464702,
+  "categoria": "park"
+ },
+ {
+  "id": "way-667213902",
+  "nome": "Praça Mais Infância",
+  "lat": -3.815937,
+  "lng": -38.6223,
+  "categoria": "park"
+ },
+ {
+  "id": "way-670823188",
+  "nome": "Praça Doutor Nilo Henrique Lassi Lopes",
+  "lat": -3.805342,
+  "lng": -38.539237,
+  "categoria": "park"
+ },
+ {
+  "id": "way-679299399",
+  "nome": "Praça Helena Martins Enéias",
+  "lat": -3.815403,
+  "lng": -38.585817,
+  "categoria": "park"
+ },
+ {
+  "id": "way-679299400",
+  "nome": "Polo de Lazer do Conjunto Esperança",
+  "lat": -3.814571,
+  "lng": -38.587942,
+  "categoria": "park"
+ },
+ {
+  "id": "way-679623857",
+  "nome": "Praça Sete Predios",
+  "lat": -3.706459,
+  "lng": -38.583621,
+  "categoria": "park"
+ },
+ {
+  "id": "way-681285588",
+  "nome": "Praça do Cesa",
+  "lat": -3.788772,
+  "lng": -38.551838,
+  "categoria": "park"
+ },
+ {
+  "id": "way-681375354",
+  "nome": "Praça Bosque Orlando Sales",
+  "lat": -3.805927,
+  "lng": -38.53526,
+  "categoria": "park"
+ },
+ {
+  "id": "way-681384773",
+  "nome": "Bosque dos Ferroviarios",
+  "lat": -3.732513,
+  "lng": -38.544426,
+  "categoria": "park"
+ },
+ {
+  "id": "way-681416407",
+  "nome": "Praça Maracanaú",
+  "lat": -3.87187,
+  "lng": -38.617046,
+  "categoria": "park"
+ },
+ {
+  "id": "way-681418993",
+  "nome": "Praça dos Estressados",
+  "lat": -3.872354,
+  "lng": -38.610436,
+  "categoria": "park"
+ },
+ {
+  "id": "way-681861113",
+  "nome": "Pracinha da Capela Santa Edwirges",
+  "lat": -3.832008,
+  "lng": -38.566843,
+  "categoria": "park"
+ },
+ {
+  "id": "way-682426751",
+  "nome": "Praça Central",
+  "lat": -3.769846,
+  "lng": -38.480052,
+  "categoria": "park"
+ },
+ {
+  "id": "way-682459974",
+  "nome": "Pracinha do Residencial Arvoredo",
+  "lat": -3.813771,
+  "lng": -38.586317,
+  "categoria": "park"
+ },
+ {
+  "id": "way-682475189",
+  "nome": "Praça da Residencia Universitária",
+  "lat": -3.739313,
+  "lng": -38.570674,
+  "categoria": "park"
+ },
+ {
+  "id": "way-682524143",
+  "nome": "Pracinha da Fonte dos Pássaros",
+  "lat": -3.769894,
+  "lng": -38.481898,
+  "categoria": "park"
+ },
+ {
+  "id": "way-683781291",
+  "nome": "Placido de Catro",
+  "lat": -3.742815,
+  "lng": -38.527886,
+  "categoria": "park"
+ },
+ {
+  "id": "way-684357499",
+  "nome": "Cine Nazaré",
+  "lat": -3.732498,
+  "lng": -38.545788,
+  "categoria": "building"
+ },
+ {
+  "id": "way-684457426",
+  "nome": "Praça do Santo Amaro",
+  "lat": -3.798418,
+  "lng": -38.601316,
+  "categoria": "park"
+ },
+ {
+  "id": "way-684532177",
+  "nome": "Pracinha do Tia Joana",
+  "lat": -3.800841,
+  "lng": -38.601945,
+  "categoria": "park"
+ },
+ {
+  "id": "way-684802751",
+  "nome": "Pracinha",
+  "lat": -3.830783,
+  "lng": -38.516416,
+  "categoria": "park"
+ },
+ {
+  "id": "way-686480774",
+  "nome": "Praça da paróquia",
+  "lat": -3.797814,
+  "lng": -38.57863,
+  "categoria": "park"
+ },
+ {
+  "id": "way-686496112",
+  "nome": "Prefeito Almir Dutra",
+  "lat": -3.87548,
+  "lng": -38.623025,
+  "categoria": "artwork"
+ },
+ {
+  "id": "way-686496113",
+  "nome": "Praça Almir Dutra",
+  "lat": -3.875843,
+  "lng": -38.623388,
+  "categoria": "park"
+ },
+ {
+  "id": "way-686717562",
+  "nome": "Pracinha do Tia Joana",
+  "lat": -3.799855,
+  "lng": -38.604371,
+  "categoria": "park"
+ },
+ {
+  "id": "way-686992457",
+  "nome": "Praça do Jaçanaú",
+  "lat": -3.838865,
+  "lng": -38.641576,
+  "categoria": "park"
+ },
+ {
+  "id": "way-686992460",
+  "nome": "Praça Henrique Mendes",
+  "lat": -3.87688,
+  "lng": -38.623972,
+  "categoria": "park"
+ },
+ {
+  "id": "way-686992463",
+  "nome": "Praça Almir Dutra",
+  "lat": -3.875398,
+  "lng": -38.622952,
+  "categoria": "park"
+ },
+ {
+  "id": "way-686992469",
+  "nome": "Praça do Restaurante Popular",
+  "lat": -3.87592,
+  "lng": -38.62285,
+  "categoria": "park"
+ },
+ {
+  "id": "way-688520082",
+  "nome": "Estátua de São José",
+  "lat": -3.87784,
+  "lng": -38.625304,
+  "categoria": "monument"
+ },
+ {
+  "id": "way-690078280",
+  "nome": "Capitão Valdemar de Lima",
+  "lat": -3.87444,
+  "lng": -38.62222,
+  "categoria": "artwork"
+ },
+ {
+  "id": "way-690526327",
+  "nome": "Praça Padre José Holanda do Vale",
+  "lat": -3.859313,
+  "lng": -38.635954,
+  "categoria": "park"
+ },
+ {
+  "id": "way-691310790",
+  "nome": "Pracinha Walter Cantídio",
+  "lat": -3.749145,
+  "lng": -38.550938,
+  "categoria": "park"
+ },
+ {
+  "id": "way-692237018",
+  "nome": "Praça Dr. Cid Junior",
+  "lat": -3.840644,
+  "lng": -38.591688,
+  "categoria": "park"
+ },
+ {
+  "id": "way-692242331",
+  "nome": "Pólo de Lazer Lagoa do Mingau",
+  "lat": -3.838373,
+  "lng": -38.589356,
+  "categoria": "park"
+ },
+ {
+  "id": "way-694072239",
+  "nome": "Feira Metropolitana de Maracanaú",
+  "lat": -3.842473,
+  "lng": -38.587687,
+  "categoria": "market"
+ },
+ {
+  "id": "way-698226960",
+  "nome": "Campo do Serrinha",
+  "lat": -3.791326,
+  "lng": -38.535484,
+  "categoria": "park"
+ },
+ {
+  "id": "way-698914533",
+  "nome": "Praça Sátiro Dias",
+  "lat": -3.761616,
+  "lng": -38.54816,
+  "categoria": "park"
+ },
+ {
+  "id": "way-701188701",
+  "nome": "Mercado das Flores",
+  "lat": -3.752564,
+  "lng": -38.516937,
+  "categoria": "market"
+ },
+ {
+  "id": "way-703088750",
+  "nome": "Praça Ermilson do Carmo Victor",
+  "lat": -3.754537,
+  "lng": -38.539897,
+  "categoria": "park"
+ },
+ {
+  "id": "way-704296398",
+  "nome": "Praça Parque das Nações",
+  "lat": -3.784459,
+  "lng": -38.555776,
+  "categoria": "park"
+ },
+ {
+  "id": "way-705285872",
+  "nome": "Praça Portal dos Ventos",
+  "lat": -3.791113,
+  "lng": -38.459152,
+  "categoria": "park"
+ },
+ {
+  "id": "way-705287969",
+  "nome": "Praça da Sapiranga",
+  "lat": -3.789318,
+  "lng": -38.474084,
+  "categoria": "park"
+ },
+ {
+  "id": "way-709883799",
+  "nome": "Parque Urbanizado do Rio Maranguapinho",
+  "lat": -3.800382,
+  "lng": -38.592576,
+  "categoria": "park"
+ },
+ {
+  "id": "way-709898904",
+  "nome": "Parque Urbanizado do Rio Maranguapinho",
+  "lat": -3.800636,
+  "lng": -38.593287,
+  "categoria": "park"
+ },
+ {
+  "id": "way-710315287",
+  "nome": "Parque Urbanizado do Rio Maranguapinho",
+  "lat": -3.78869,
+  "lng": -38.591617,
+  "categoria": "park"
+ },
+ {
+  "id": "way-711570092",
+  "nome": "Parque Urbanizado do Rio Maranguapinho",
+  "lat": -3.809185,
+  "lng": -38.597444,
+  "categoria": "park"
+ },
+ {
+  "id": "way-711570454",
+  "nome": "Parque Urbanizado do Rio Maranguapinho",
+  "lat": -3.807689,
+  "lng": -38.594617,
+  "categoria": "park"
+ },
+ {
+  "id": "way-711570455",
+  "nome": "Parque Urbanizado do Rio Maranguapinho",
+  "lat": -3.809717,
+  "lng": -38.597309,
+  "categoria": "park"
+ },
+ {
+  "id": "way-713236364",
+  "nome": "Parque Urbanizado do Rio Maranguapinho",
+  "lat": -3.815339,
+  "lng": -38.606614,
+  "categoria": "park"
+ },
+ {
+  "id": "way-713263611",
+  "nome": "Parque Urbanizado do Rio Maranguapinho",
+  "lat": -3.812619,
+  "lng": -38.600346,
+  "categoria": "park"
+ },
+ {
+  "id": "way-713266533",
+  "nome": "Parque Urbanizado do Rio Maranguapinho",
+  "lat": -3.825035,
+  "lng": -38.615215,
+  "categoria": "park"
+ },
+ {
+  "id": "way-713267534",
+  "nome": "Parque Urbanizado do Rio Maranguapinho",
+  "lat": -3.825627,
+  "lng": -38.614625,
+  "categoria": "park"
+ },
+ {
+  "id": "way-715650249",
+  "nome": "Ponto do Bazar",
+  "lat": -3.791527,
+  "lng": -38.599474,
+  "categoria": "market"
+ },
+ {
+  "id": "way-717580384",
+  "nome": "Praça do Papoco",
+  "lat": -3.752165,
+  "lng": -38.568368,
+  "categoria": "park"
+ },
+ {
+  "id": "way-718765595",
+  "nome": "Praça da Montenegro",
+  "lat": -3.780184,
+  "lng": -38.577988,
+  "categoria": "park"
+ },
+ {
+  "id": "way-718775328",
+  "nome": "Praça da Creche do Presidente Vargas",
+  "lat": -3.82196,
+  "lng": -38.599747,
+  "categoria": "park"
+ },
+ {
+  "id": "way-718778867",
+  "nome": "Praça de Jatobá",
+  "lat": -3.814509,
+  "lng": -38.626311,
+  "categoria": "park"
+ },
+ {
+  "id": "way-719028971",
+  "nome": "Parque Cazuza",
+  "lat": -3.794662,
+  "lng": -38.544167,
+  "categoria": "park"
+ },
+ {
+  "id": "way-719519026",
+  "nome": "Praça Doutor Juracy Magalhães",
+  "lat": -3.758293,
+  "lng": -38.562337,
+  "categoria": "park"
+ },
+ {
+  "id": "way-719519028",
+  "nome": "Praça no Demócrito Rocha",
+  "lat": -3.758353,
+  "lng": -38.561796,
+  "categoria": "park"
+ },
+ {
+  "id": "way-719536291",
+  "nome": "Society",
+  "lat": -3.794861,
+  "lng": -38.595191,
+  "categoria": "park"
+ },
+ {
+  "id": "way-720102890",
+  "nome": "Praça Bonsucesso",
+  "lat": -3.785728,
+  "lng": -38.588365,
+  "categoria": "park"
+ },
+ {
+  "id": "way-720109743",
+  "nome": "Praça João XXIII",
+  "lat": -3.773617,
+  "lng": -38.579288,
+  "categoria": "park"
+ },
+ {
+  "id": "way-721488428",
+  "nome": "Praça na Parangaba",
+  "lat": -3.773938,
+  "lng": -38.561371,
+  "categoria": "park"
+ },
+ {
+  "id": "way-722113575",
+  "nome": "Praça da Estação Couto Fernandes",
+  "lat": -3.757196,
+  "lng": -38.557669,
+  "categoria": "park"
+ },
+ {
+  "id": "way-722476248",
+  "nome": "Praça Renascer",
+  "lat": -3.788866,
+  "lng": -38.526525,
+  "categoria": "park"
+ },
+ {
+  "id": "way-723027104",
+  "nome": "Praça Carlos Pompeu Costa Lima Gurgel",
+  "lat": -3.831406,
+  "lng": -38.501075,
+  "categoria": "park"
+ },
+ {
+  "id": "way-723568021",
+  "nome": "Praça I - Jathaí",
+  "lat": -3.72381,
+  "lng": -38.541741,
+  "categoria": "park"
+ },
+ {
+  "id": "way-723568022",
+  "nome": "Praça II - Jathaí",
+  "lat": -3.723532,
+  "lng": -38.541972,
+  "categoria": "park"
+ },
+ {
+  "id": "way-723877014",
+  "nome": "Rosa dos Ventos",
+  "lat": -3.723188,
+  "lng": -38.540289,
+  "categoria": "memorial"
+ },
+ {
+  "id": "way-724027242",
+  "nome": "Urbanização do Canal do Industrial",
+  "lat": -3.84006,
+  "lng": -38.590164,
+  "categoria": "park"
+ },
+ {
+  "id": "way-724027454",
+  "nome": "Urbanização do Canal do Industrial",
+  "lat": -3.840624,
+  "lng": -38.590741,
+  "categoria": "park"
+ },
+ {
+  "id": "way-725157583",
+  "nome": "Praça Madri",
+  "lat": -3.877065,
+  "lng": -38.487743,
+  "categoria": "park"
+ },
+ {
+  "id": "way-729337842",
+  "nome": "Praça Vila Nova",
+  "lat": -3.719206,
+  "lng": -38.60336,
+  "categoria": "park"
+ },
+ {
+  "id": "way-729337848",
+  "nome": "Praça Major Assis",
+  "lat": -3.719894,
+  "lng": -38.604051,
+  "categoria": "park"
+ },
+ {
+  "id": "way-730852245",
+  "nome": "Praça da Vila Pedro",
+  "lat": -3.727067,
+  "lng": -38.539785,
+  "categoria": "park"
+ },
+ {
+  "id": "way-731743952",
+  "nome": "Pinacoteca do Ceará",
+  "lat": -3.721972,
+  "lng": -38.530814,
+  "categoria": "gallery",
+  "site": true
+ },
+ {
+  "id": "way-733711489",
+  "nome": "Praça Paulo Ess",
+  "lat": -3.744347,
+  "lng": -38.535381,
+  "categoria": "park"
+ },
+ {
+  "id": "way-734236888",
+  "nome": "Pracinha Do Aquifico",
+  "lat": -3.786319,
+  "lng": -38.527696,
+  "categoria": "park"
+ },
+ {
+  "id": "way-735349134",
+  "nome": "Tapeba Centro de Produção Cultural",
+  "lat": -3.74029,
+  "lng": -38.636314,
+  "categoria": "attraction"
+ },
+ {
+  "id": "way-738602249",
+  "nome": "Praça Costa e Silva",
+  "lat": -3.766129,
+  "lng": -38.569092,
+  "categoria": "park"
+ },
+ {
+  "id": "way-738608074",
+  "nome": "Praça das Lavadeiras",
+  "lat": -3.775452,
+  "lng": -38.482518,
+  "categoria": "park"
+ },
+ {
+  "id": "way-738610437",
+  "nome": "Praça Vila Betânia",
+  "lat": -3.780815,
+  "lng": -38.555571,
+  "categoria": "park"
+ },
+ {
+  "id": "way-751068162",
+  "nome": "Praça Menino Jesus de Praga",
+  "lat": -3.800553,
+  "lng": -38.534318,
+  "categoria": "park"
+ },
+ {
+  "id": "way-756743402",
+  "nome": "Praça Ubiratan Aguiar",
+  "lat": -3.802208,
+  "lng": -38.508828,
+  "categoria": "park"
+ },
+ {
+  "id": "way-756743409",
+  "nome": "Praça Residencial Bariloche",
+  "lat": -3.801602,
+  "lng": -38.508404,
+  "categoria": "park"
+ },
+ {
+  "id": "way-757990393",
+  "nome": "Praça Sargento Prata",
+  "lat": -3.810329,
+  "lng": -38.533831,
+  "categoria": "park"
+ },
+ {
+  "id": "way-757990394",
+  "nome": "Praça Ecológica",
+  "lat": -3.810615,
+  "lng": -38.533277,
+  "categoria": "park"
+ },
+ {
+  "id": "way-760016552",
+  "nome": "Praça Antônio Dias Macêdo",
+  "lat": -3.785882,
+  "lng": -38.520344,
+  "categoria": "park"
+ },
+ {
+  "id": "way-760021940",
+  "nome": "Praça da Rua A",
+  "lat": -3.786647,
+  "lng": -38.52609,
+  "categoria": "park"
+ },
+ {
+  "id": "way-763279849",
+  "nome": "Praça João Ventura Martins",
+  "lat": -3.775353,
+  "lng": -38.500456,
+  "categoria": "park"
+ },
+ {
+  "id": "way-763407571",
+  "nome": "Praça Jardim União II - Passaré",
+  "lat": -3.811332,
+  "lng": -38.5442,
+  "categoria": "park"
+ },
+ {
+  "id": "way-767612190",
+  "nome": "Praça Largo dos Agrônomos",
+  "lat": -3.754637,
+  "lng": -38.575626,
+  "categoria": "park"
+ },
+ {
+  "id": "way-767886890",
+  "nome": "Praça do Pólo da Aerolândia",
+  "lat": -3.772893,
+  "lng": -38.511804,
+  "categoria": "park"
+ },
+ {
+  "id": "way-768423613",
+  "nome": "Praça Robson de Sousa",
+  "lat": -3.764029,
+  "lng": -38.562004,
+  "categoria": "park"
+ },
+ {
+  "id": "way-769441498",
+  "nome": "Praça da Barra",
+  "lat": -3.700538,
+  "lng": -38.588263,
+  "categoria": "park"
+ },
+ {
+  "id": "way-769449272",
+  "nome": "Praça Beira-Rio",
+  "lat": -3.698596,
+  "lng": -38.584342,
+  "categoria": "park"
+ },
+ {
+  "id": "way-769454521",
+  "nome": "Praça Areninha da Barra do Ceará",
+  "lat": -3.698878,
+  "lng": -38.579214,
+  "categoria": "park"
+ },
+ {
+  "id": "way-770377708",
+  "nome": "Praça Centro Cultural do Bom Jardim",
+  "lat": -3.786237,
+  "lng": -38.60969,
+  "categoria": "park"
+ },
+ {
+  "id": "way-795634491",
+  "nome": "Praça Rio Grande do Norte",
+  "lat": -3.76234,
+  "lng": -38.56143,
+  "categoria": "park"
+ },
+ {
+  "id": "way-795669312",
+  "nome": "Praça Bulevar I",
+  "lat": -3.835372,
+  "lng": -38.526754,
+  "categoria": "park"
+ },
+ {
+  "id": "way-795669321",
+  "nome": "Praça Bulevar I",
+  "lat": -3.834198,
+  "lng": -38.525515,
+  "categoria": "park"
+ },
+ {
+  "id": "way-795669323",
+  "nome": "Praça Bulevar I",
+  "lat": -3.833693,
+  "lng": -38.524302,
+  "categoria": "park"
+ },
+ {
+  "id": "way-795669325",
+  "nome": "Praça Bulevar I",
+  "lat": -3.833664,
+  "lng": -38.522605,
+  "categoria": "park"
+ },
+ {
+  "id": "way-795669327",
+  "nome": "Praça Bulevar I",
+  "lat": -3.833752,
+  "lng": -38.519808,
+  "categoria": "park"
+ },
+ {
+  "id": "way-795682950",
+  "nome": "Praça Tereza Neuman Zaranza Lima",
+  "lat": -3.840373,
+  "lng": -38.520838,
+  "categoria": "park"
+ },
+ {
+  "id": "way-809675094",
+  "nome": "Praça da Comunidade São Pedro",
+  "lat": -3.699906,
+  "lng": -38.584035,
+  "categoria": "park"
+ },
+ {
+  "id": "way-835651895",
+  "nome": "Praça Vereador Alberto Queiroz",
+  "lat": -3.719487,
+  "lng": -38.474743,
+  "categoria": "park"
+ },
+ {
+  "id": "way-845677152",
+  "nome": "Praça Jardim Iracema",
+  "lat": -3.71331,
+  "lng": -38.581739,
+  "categoria": "park"
+ },
+ {
+  "id": "way-874139932",
+  "nome": "Areninha do Tigrão",
+  "lat": -3.741924,
+  "lng": -38.546132,
+  "categoria": "park"
+ },
+ {
+  "id": "way-881263858",
+  "nome": "Mercado de Messejana",
+  "lat": -3.830456,
+  "lng": -38.492068,
+  "categoria": "market"
+ },
+ {
+  "id": "way-896064043",
+  "nome": "Praça da Estação",
+  "lat": -3.798413,
+  "lng": -38.574625,
+  "categoria": "park"
+ },
+ {
+  "id": "way-896287232",
+  "nome": "Praça do Novo Maracanaú",
+  "lat": -3.865398,
+  "lng": -38.623591,
+  "categoria": "park"
+ },
+ {
+  "id": "way-896290260",
+  "nome": "Área Verde e Praças Gerdau Cearense",
+  "lat": -3.856552,
+  "lng": -38.605232,
+  "categoria": "park"
+ },
+ {
+  "id": "way-906171911",
+  "nome": "Museu do Automóvel",
+  "lat": -3.767708,
+  "lng": -38.489096,
+  "categoria": "museum"
+ },
+ {
+  "id": "way-928359989",
+  "nome": "Praça do Conjunto Nova Assunção",
+  "lat": -3.715016,
+  "lng": -38.598359,
+  "categoria": "park"
+ },
+ {
+  "id": "way-934891757",
+  "nome": "Corredor da Folia",
+  "lat": -3.759318,
+  "lng": -38.461426,
+  "categoria": "attraction"
+ },
+ {
+  "id": "way-944434384",
+  "nome": "Praça Domingos Pontes",
+  "lat": -3.757354,
+  "lng": -38.636052,
+  "categoria": "park"
+ },
+ {
+  "id": "way-963063030",
+  "nome": "Praça Gustavo Barroso",
+  "lat": -3.723362,
+  "lng": -38.540761,
+  "categoria": "park",
+  "wikidata": true,
+  "wikipedia": true,
+  "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustavo%20Barroso%2C%20ABL%2C%201958.tif?width=400"
+ },
+ {
+  "id": "way-1022958490",
+  "nome": "Praça Viva: Jovita Feitosa",
+  "lat": -3.738118,
+  "lng": -38.547434,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1022984588",
+  "nome": "Parque da Longevidade",
+  "lat": -3.776669,
+  "lng": -38.492934,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1060581717",
+  "nome": "Parque Dom Aloísio Lorscheider",
+  "lat": -3.808095,
+  "lng": -38.555167,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1077142977",
+  "nome": "Torre da Praia",
+  "lat": -3.719863,
+  "lng": -38.511676,
+  "categoria": "artwork"
+ },
+ {
+  "id": "way-1091751477",
+  "nome": "Praça do Planalto Vitória",
+  "lat": -3.822705,
+  "lng": -38.609743,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1106187706",
+  "nome": "praça do terminal do araturi",
+  "lat": -3.763397,
+  "lng": -38.639768,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1106187707",
+  "nome": "Pequena Praça de iparana",
+  "lat": -3.691031,
+  "lng": -38.619235,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1106187708",
+  "nome": "Praça do Perpétuo",
+  "lat": -3.762977,
+  "lng": -38.578616,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1106187709",
+  "nome": "Pracinha da Granja Portugal",
+  "lat": -3.784254,
+  "lng": -38.599291,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1109176747",
+  "nome": "Praça Dep. Paulo Benevides",
+  "lat": -3.835548,
+  "lng": -38.498695,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1109844757",
+  "nome": "praca jaime andrade",
+  "lat": -3.771156,
+  "lng": -38.513861,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1112110306",
+  "nome": "Praça do Liceu do Vila Velha",
+  "lat": -3.711384,
+  "lng": -38.600424,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1112705237",
+  "nome": "Museu da Imagem e do Som do Ceará",
+  "lat": -3.727617,
+  "lng": -38.504608,
+  "categoria": "museum",
+  "wikidata": true,
+  "wikipedia": true,
+  "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/MIS-CE%20-%20Casa%20de%20Fausto%20Cabral%2015.jpg?width=400"
+ },
+ {
+  "id": "way-1122757808",
+  "nome": "Praça José Moreira Leitão",
+  "lat": -3.740444,
+  "lng": -38.591034,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1154640683",
+  "nome": "Banho de Iracema",
+  "lat": -3.82717,
+  "lng": -38.493767,
+  "categoria": "artwork"
+ },
+ {
+  "id": "way-1161348980",
+  "nome": "Teatro Chico Anysio",
+  "lat": -3.736967,
+  "lng": -38.535064,
+  "categoria": "theatre",
+  "site": true
+ },
+ {
+  "id": "way-1161529728",
+  "nome": "Casa da Esquina",
+  "lat": -3.752312,
+  "lng": -38.522735,
+  "categoria": "theatre"
+ },
+ {
+  "id": "way-1164230569",
+  "nome": "Praça São José",
+  "lat": -3.788001,
+  "lng": -38.585491,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1166291419",
+  "nome": "Feira da Parangaba",
+  "lat": -3.768184,
+  "lng": -38.563115,
+  "categoria": "market"
+ },
+ {
+  "id": "way-1168822868",
+  "nome": "Auditório",
+  "lat": -3.739111,
+  "lng": -38.495727,
+  "categoria": "theatre"
+ },
+ {
+  "id": "way-1169920670",
+  "nome": "Museu do Ceará - Anexo Bode Ioiô",
+  "lat": -3.728071,
+  "lng": -38.528212,
+  "categoria": "museum",
+  "telefone": true
+ },
+ {
+  "id": "way-1169920740",
+  "nome": "Casa do Barão de Camocim",
+  "lat": -3.732696,
+  "lng": -38.532789,
+  "categoria": "building",
+  "site": true,
+  "telefone": true
+ },
+ {
+  "id": "way-1170435635",
+  "nome": "Sobrado Dr. José Lourenço",
+  "lat": -3.724365,
+  "lng": -38.527051,
+  "categoria": "building"
+ },
+ {
+  "id": "way-1177682658",
+  "nome": "Mercearia o Manoel",
+  "lat": -3.880938,
+  "lng": -38.62146,
+  "categoria": "market"
+ },
+ {
+  "id": "way-1188258533",
+  "nome": "Praça do Novo Renascer (Mondubim)",
+  "lat": -3.825397,
+  "lng": -38.566573,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1188258534",
+  "nome": "Praça do Novo Renascer (Mondubim)",
+  "lat": -3.825648,
+  "lng": -38.566216,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1190038100",
+  "nome": "Praça João Paulo II",
+  "lat": -3.824611,
+  "lng": -38.518276,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1208353700",
+  "nome": "Jardim",
+  "lat": -3.889327,
+  "lng": -38.609944,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1208353702",
+  "nome": "Jardim 2C e 2B",
+  "lat": -3.889299,
+  "lng": -38.610102,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1218913666",
+  "nome": "Mausoléu Castelo Branco",
+  "lat": -3.728781,
+  "lng": -38.504433,
+  "categoria": "museum"
+ },
+ {
+  "id": "way-1227908625",
+  "nome": "Microparque Santa Luzia",
+  "lat": -3.773306,
+  "lng": -38.618478,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1230225222",
+  "nome": "EAMCE",
+  "lat": -3.717749,
+  "lng": -38.542088,
+  "categoria": "monument"
+ },
+ {
+  "id": "way-1230225241",
+  "nome": "Navio Marinha do Brasil U01-CEARÁ",
+  "lat": -3.717346,
+  "lng": -38.542762,
+  "categoria": "monument"
+ },
+ {
+  "id": "way-1230696988",
+  "nome": "Praça da Justiça",
+  "lat": -3.81267,
+  "lng": -38.486143,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1254094185",
+  "nome": "Zoológico Municipal Sargento Prata",
+  "lat": -3.812611,
+  "lng": -38.532819,
+  "categoria": "zoo"
+ },
+ {
+  "id": "way-1258149846",
+  "nome": "Praça da 31",
+  "lat": -3.878229,
+  "lng": -38.609499,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1285810904",
+  "nome": "Praça do Futuro",
+  "lat": -3.738305,
+  "lng": -38.492873,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1288617518",
+  "nome": "Área verde do Jardim Alvorada",
+  "lat": -3.720565,
+  "lng": -38.546954,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1288617799",
+  "nome": "Parque Jardim Alvorada",
+  "lat": -3.719975,
+  "lng": -38.546935,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1328419643",
+  "nome": "Boxes Alto da Paz",
+  "lat": -3.722892,
+  "lng": -38.472982,
+  "categoria": "market"
+ },
+ {
+  "id": "way-1331302191",
+  "nome": "Concha Acústica",
+  "lat": -3.742152,
+  "lng": -38.538425,
+  "categoria": "theatre",
+  "telefone": true
+ },
+ {
+  "id": "way-1408796927",
+  "nome": "arena",
+  "lat": -3.866851,
+  "lng": -38.631883,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1408797230",
+  "nome": "Pista skate",
+  "lat": -3.866962,
+  "lng": -38.632371,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1460759399",
+  "nome": "Praça Entrada de Aquiraz",
+  "lat": -3.89722,
+  "lng": -38.403155,
+  "categoria": "park"
+ },
+ {
+  "id": "way-1523620920",
+  "nome": "São João de Maracanaú",
+  "lat": -3.870243,
+  "lng": -38.606532,
+  "categoria": "park",
+  "site": true
+ },
+ {
+  "id": "way-1543028408",
+  "nome": "Monumento Torre da Vida",
+  "lat": -3.876877,
+  "lng": -38.615863,
+  "categoria": "monument"
+ },
+ {
+  "id": "relation-5654891",
+  "nome": "Praça do Remo",
+  "lat": -3.764004,
+  "lng": -38.620226,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-5658291",
+  "nome": "Praça Prisco Bezerra",
+  "lat": -3.738636,
+  "lng": -38.569418,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-5661384",
+  "nome": "Praça Brigadeiro Eduardo Gomes",
+  "lat": -3.772178,
+  "lng": -38.535835,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-5668092",
+  "nome": "Parque Adahil Barreto",
+  "lat": -3.755893,
+  "lng": -38.497757,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-5704565",
+  "nome": "Praça Da Caixa",
+  "lat": -3.774758,
+  "lng": -38.605006,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-5707546",
+  "nome": "Polo de Lazer da Parangaba",
+  "lat": -3.774861,
+  "lng": -38.566208,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-5723621",
+  "nome": "Praça da Avenida H",
+  "lat": -3.775774,
+  "lng": -38.61492,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-5755486",
+  "nome": "Praça Zenaide Magalhães",
+  "lat": -3.766277,
+  "lng": -38.597526,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-5755581",
+  "nome": "Praça UV2",
+  "lat": -3.765156,
+  "lng": -38.608417,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-5755626",
+  "nome": "Praça da 541",
+  "lat": -3.767597,
+  "lng": -38.610471,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-5899924",
+  "nome": "Ponte dos Ingleses",
+  "lat": -3.718064,
+  "lng": -38.516918,
+  "categoria": "viewpoint",
+  "wikidata": true,
+  "wikipedia": true,
+  "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Ponte%20dos%20Ingleses%20-%20Ponte%20Met%C3%A1lica.png?width=400"
+ },
+ {
+  "id": "relation-5924512",
+  "nome": "Píer Náutico",
+  "lat": -3.723644,
+  "lng": -38.494336,
+  "categoria": "attraction"
+ },
+ {
+  "id": "relation-5925874",
+  "nome": "Píer Ideal",
+  "lat": -3.721539,
+  "lng": -38.504373,
+  "categoria": "attraction"
+ },
+ {
+  "id": "relation-6064938",
+  "nome": "Calçadão da Crasa",
+  "lat": -3.729107,
+  "lng": -38.54524,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-6807885",
+  "nome": "Parque de Vaquejada Valeu Boi",
+  "lat": -3.863959,
+  "lng": -38.50158,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-7495484",
+  "nome": "Praça Manuel Dias Branco",
+  "lat": -3.755916,
+  "lng": -38.52368,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-7848240",
+  "nome": "Praça Estrigas & Nice",
+  "lat": -3.739317,
+  "lng": -38.471578,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8412748",
+  "nome": "Polo de Lazer Ivens Dias Branco",
+  "lat": -3.89169,
+  "lng": -38.451319,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8766930",
+  "nome": "Praça da Juventude",
+  "lat": -3.770051,
+  "lng": -38.592182,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8778623",
+  "nome": "Fortaleza de Nossa Senhora da Assunção",
+  "lat": -3.722766,
+  "lng": -38.525127,
+  "categoria": "attraction",
+  "wikidata": true,
+  "wikipedia": true,
+  "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Fortaleza%20de%20Nossa%20Senhora%20da%20Assun%C3%A7%C3%A3o.JPG?width=400"
+ },
+ {
+  "id": "relation-8778624",
+  "nome": "Passeio Público",
+  "lat": -3.722658,
+  "lng": -38.526303,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8781898",
+  "nome": "Praça Francisca Zélia Gonzaga Fontenele",
+  "lat": -3.733214,
+  "lng": -38.567603,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8781920",
+  "nome": "Praça José Carlos Gaspar",
+  "lat": -3.77376,
+  "lng": -38.588935,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8781934",
+  "nome": "Praça Santa Lígia",
+  "lat": -3.775385,
+  "lng": -38.574033,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8796543",
+  "nome": "Bosque Municipal Presidente Geisel",
+  "lat": -3.766619,
+  "lng": -38.490041,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8796608",
+  "nome": "Praça do Parreão 2",
+  "lat": -3.758877,
+  "lng": -38.531371,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8796630",
+  "nome": "Parque Linear do Riacho Maceió",
+  "lat": -3.729369,
+  "lng": -38.478167,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8796638",
+  "nome": "Parque Pajeú",
+  "lat": -3.728784,
+  "lng": -38.521533,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8796661",
+  "nome": "Parque Linear Rachel de Queiroz",
+  "lat": -3.742128,
+  "lng": -38.578345,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8802553",
+  "nome": "Praça do Vila União",
+  "lat": -3.768312,
+  "lng": -38.533727,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8812173",
+  "nome": "Parque Ecológico do Cocó",
+  "lat": -3.750154,
+  "lng": -38.486095,
+  "categoria": "attraction",
+  "wikidata": true,
+  "wikipedia": true,
+  "site": true,
+  "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Fortaleza%20Parque%20do%20Coco.jpg?width=400"
+ },
+ {
+  "id": "relation-8834599",
+  "nome": "Espaço Abolição",
+  "lat": -3.72916,
+  "lng": -38.504006,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8856639",
+  "nome": "Espaço Rogaciano Leite Filho",
+  "lat": -3.722102,
+  "lng": -38.520494,
+  "categoria": "theatre",
+  "telefone": true
+ },
+ {
+  "id": "relation-8856654",
+  "nome": "Anfiteatro Sérgio Motta",
+  "lat": -3.721233,
+  "lng": -38.520192,
+  "categoria": "theatre",
+  "site": true,
+  "telefone": true
+ },
+ {
+  "id": "relation-8856700",
+  "nome": "Praça Almirante Saldanha",
+  "lat": -3.721596,
+  "lng": -38.520174,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8856859",
+  "nome": "Teatro São José",
+  "lat": -3.723614,
+  "lng": -38.520782,
+  "categoria": "theatre",
+  "wikidata": true,
+  "wikipedia": true,
+  "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Teatro%20S%C3%A3o%20Jos%C3%A9%20em%20Fortaleza%2004.jpg?width=400"
+ },
+ {
+  "id": "relation-8857371",
+  "nome": "Praça Milton Santos",
+  "lat": -3.745902,
+  "lng": -38.57335,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8992750",
+  "nome": "Praça Cj. Jardim União - Passaré",
+  "lat": -3.81416,
+  "lng": -38.535777,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-8992755",
+  "nome": "Parque Ecológico Passaré",
+  "lat": -3.809872,
+  "lng": -38.531075,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-9068967",
+  "nome": "Pracinha Aleatória",
+  "lat": -3.74044,
+  "lng": -38.571455,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-9070226",
+  "nome": "Praça da Biblioteca Central",
+  "lat": -3.742401,
+  "lng": -38.574516,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-9071324",
+  "nome": "Praça das Mangueiras",
+  "lat": -3.746046,
+  "lng": -38.574836,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-9071983",
+  "nome": "Praça do Trator",
+  "lat": -3.741827,
+  "lng": -38.576471,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-9089245",
+  "nome": "Area de Convivencia - Engenharia Eletrica",
+  "lat": -3.744313,
+  "lng": -38.576549,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-9089260",
+  "nome": "Praça da Pirâmide",
+  "lat": -3.74416,
+  "lng": -38.575835,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-9089271",
+  "nome": "Area de Convivencia - Bloco 804",
+  "lat": -3.741859,
+  "lng": -38.575432,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-9580942",
+  "nome": "Praça Anhembi",
+  "lat": -3.800306,
+  "lng": -38.530552,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-10121952",
+  "nome": "Parque Urbano da Lagoa do Opaia",
+  "lat": -3.7672,
+  "lng": -38.530179,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-10716363",
+  "nome": "Praça Doutor Luís França",
+  "lat": -3.708563,
+  "lng": -38.566835,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-11919509",
+  "nome": "Praça do Conjunto Vicente Arruda",
+  "lat": -3.730943,
+  "lng": -38.649549,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-12917926",
+  "nome": "Museu do Caju",
+  "lat": -3.76435,
+  "lng": -38.617077,
+  "categoria": "museum"
+ },
+ {
+  "id": "relation-13326987",
+  "nome": "Praça Barcelona",
+  "lat": -3.897309,
+  "lng": -38.482012,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-14186906",
+  "nome": "Polo de Lazer do Tauape",
+  "lat": -3.761034,
+  "lng": -38.504522,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-14558608",
+  "nome": "Praça São João Paulo II",
+  "lat": -3.832057,
+  "lng": -38.475659,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-14599633",
+  "nome": "Pátio São Pio X (Décimo)",
+  "lat": -3.755932,
+  "lng": -38.562048,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-14610360",
+  "nome": "Praça da Intendência",
+  "lat": -3.763556,
+  "lng": -38.521246,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-14610362",
+  "nome": "Praça da Saudade",
+  "lat": -3.763607,
+  "lng": -38.520868,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-14628577",
+  "nome": "Praça Mauá",
+  "lat": -3.755905,
+  "lng": -38.56792,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-14715575",
+  "nome": "Praça Valdir Campos de Vasconcelos (Polar)",
+  "lat": -3.710165,
+  "lng": -38.592654,
+  "categoria": "park",
+  "wikidata": true,
+  "wikipedia": true
+ },
+ {
+  "id": "relation-14721337",
+  "nome": "Praça do Uv6",
+  "lat": -3.765261,
+  "lng": -38.60349,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-14756000",
+  "nome": "Parque Bisão",
+  "lat": -3.723794,
+  "lng": -38.483222,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-14874677",
+  "nome": "Pracinha da Estação",
+  "lat": -3.816886,
+  "lng": -38.585667,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-14879375",
+  "nome": "Parque Urbano da Lagoa da Maraponga",
+  "lat": -3.790117,
+  "lng": -38.570553,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-15022612",
+  "nome": "Praça da Estação Porangabussu",
+  "lat": -3.751862,
+  "lng": -38.551419,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-15078585",
+  "nome": "Pólo de Lazer Sargento Hermínio",
+  "lat": -3.726615,
+  "lng": -38.558587,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-15599097",
+  "nome": "Parque Lagoa da Viúva",
+  "lat": -3.808477,
+  "lng": -38.618074,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-15659834",
+  "nome": "Praça Manoel Rodrigues",
+  "lat": -3.741217,
+  "lng": -38.561182,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-15660962",
+  "nome": "Praça do Bairro Ellery",
+  "lat": -3.722566,
+  "lng": -38.559632,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-15682885",
+  "nome": "Parque Urbano da Lagoa do Papicu",
+  "lat": -3.742344,
+  "lng": -38.46717,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-15682886",
+  "nome": "Praça Monsenhor Amarílio",
+  "lat": -3.742392,
+  "lng": -38.465482,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-15745581",
+  "nome": "Praça da estação Vila Pery",
+  "lat": -3.785377,
+  "lng": -38.573597,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-15829061",
+  "nome": "Theatro José de Alencar",
+  "lat": -3.727696,
+  "lng": -38.531675,
+  "categoria": "theatre",
+  "wikidata": true,
+  "wikipedia": true,
+  "site": true,
+  "telefone": true,
+  "imagem": "https://commons.wikimedia.org/wiki/Special:FilePath/Interior%20do%20Theatro%20Jos%C3%A9%20de%20Alencar%2004.jpg?width=400"
+ },
+ {
+  "id": "relation-15841674",
+  "nome": "Praça Pio IX",
+  "lat": -3.751971,
+  "lng": -38.52598,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-16025913",
+  "nome": "Praça Paula Pessoa",
+  "lat": -3.730336,
+  "lng": -38.538917,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-16025914",
+  "nome": "Mercado São Sebastião",
+  "lat": -3.730059,
+  "lng": -38.539262,
+  "categoria": "market"
+ },
+ {
+  "id": "relation-16195547",
+  "nome": "Praça Maria Tomásia",
+  "lat": -3.85456,
+  "lng": -38.519909,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-16502553",
+  "nome": "Praça Deputado Marcelo Linhares",
+  "lat": -3.749083,
+  "lng": -38.49258,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-16817221",
+  "nome": "Polo de Lazer Sítio São João",
+  "lat": -3.849855,
+  "lng": -38.515791,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-16858002",
+  "nome": "Parque Urbanizado do Rio Maranguapinho",
+  "lat": -3.815816,
+  "lng": -38.60668,
+  "categoria": "park"
+ },
+ {
+  "id": "relation-17747828",
+  "nome": "Museu da Escrita",
+  "lat": -3.745341,
+  "lng": -38.505064,
+  "categoria": "museum",
+  "telefone": true
+ }
+]
