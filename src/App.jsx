@@ -3,7 +3,11 @@ import Mapa from './components/Mapa.jsx'
 import PainelProgresso from './components/PainelProgresso.jsx'
 import CardsTuristicos from './components/CardsTuristicos.jsx'
 import pontos from './data/pontos.json'
-import { carregarDescobertas, salvarDescobertas } from './lib/descobertas.js'
+import {
+  carregarDescobertas,
+  salvarDescobertas,
+  limparDescobertas,
+} from './lib/descobertas.js'
 
 export default function App() {
   // Filtra ids que nao existem mais no pontos.json. Sem isso, uma descoberta
@@ -22,6 +26,11 @@ export default function App() {
     })
   }, [])
 
+  const aoReiniciar = useCallback(() => {
+    limparDescobertas()
+    setDescobertas([])
+  }, [])
+
   const aoMudarDestaques = useCallback((novos) => {
     setDestaques(novos)
   }, [])
@@ -35,7 +44,11 @@ export default function App() {
       />
 
       <div className="painel">
-        <PainelProgresso pontos={pontos} descobertas={descobertas} />
+        <PainelProgresso
+          pontos={pontos}
+          descobertas={descobertas}
+          aoReiniciar={aoReiniciar}
+        />
         <CardsTuristicos destaques={destaques} />
       </div>
     </div>

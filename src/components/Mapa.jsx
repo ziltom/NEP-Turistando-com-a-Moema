@@ -217,6 +217,13 @@ export default function Mapa({ descobertas, aoDescobrir, aoMudarDestaques }) {
     Object.values(marcadoresRef.current).forEach(({ el, ponto }) => {
       el.classList.toggle('descoberto', descobertas.includes(ponto.id))
     })
+
+    // Ao reiniciar o jogo, fecha o popup que ficou aberto de uma descoberta
+    // que acabou de ser desfeita.
+    if (descobertas.length === 0 && popupRef.current) {
+      popupRef.current.remove()
+      popupRef.current = null
+    }
   }, [descobertas])
 
   return (

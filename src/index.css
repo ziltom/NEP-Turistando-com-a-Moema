@@ -191,3 +191,61 @@ html, body, #root {
   border-top: 1px solid var(--cor-borda);
   font-size: 0.8rem !important;
 }
+
+/* ---------- Reiniciar o jogo ---------- */
+
+.reiniciar {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--cor-borda);
+}
+
+.reiniciar-pergunta {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.82rem;
+  color: var(--cor-texto);
+}
+
+.reiniciar-acoes { display: flex; gap: 8px; }
+
+.botao {
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.botao-discreto {
+  width: 100%;
+  background: transparent;
+  border-color: var(--cor-borda);
+  color: var(--cor-suave);
+  font-weight: 500;
+}
+
+.botao-discreto:hover { border-color: var(--cor-suave); color: var(--cor-texto); }
+
+.botao-destaque {
+  width: 100%;
+  background: var(--cor-moema);
+  color: #fff;
+}
+
+.botao-destaque:hover { background: #248277; }
+
+.botao-perigo { background: var(--cor-turistico); color: #fff; }
+.botao-perigo:hover { background: #d15f42; }
+
+.botao-neutro {
+  background: transparent;
+  border-color: var(--cor-borda);
+  color: var(--cor-suave);
+  font-weight: 500;
+}
+
+.botao-neutro:hover { border-color: var(--cor-suave); color: var(--cor-texto); }
