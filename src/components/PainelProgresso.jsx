@@ -11,7 +11,7 @@ export default function PainelProgresso({ pontos, descobertas, aoReiniciar }) {
 
   return (
     <section>
-      <h1>Caca a Moema</h1>
+      <h1>Caça à Moema</h1>
 
       <div className="contador">
         <strong>{descobertas.length}</strong> / {pontos.length} encontradas
