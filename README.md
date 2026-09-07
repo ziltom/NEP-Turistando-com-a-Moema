@@ -101,12 +101,12 @@ Para mudar uma Moema, edite `src/data/pontos.json`:
 ## GABARITO
 Confira onde estão as emas:
 
-01 - Parque do Cocó
-02 - Beira-mar
-03 - Praça do Ferreira
-04 - Unifor
-05 - Praia do Futuro
-06 - Dragão do Mar
+1. Parque do Cocó
+2. Beira-mar
+3. Praça do Ferreira
+4. Unifor
+5. Praia do Futuro
+6. Dragão do Mar
 
 ---
 
