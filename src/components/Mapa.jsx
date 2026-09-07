@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 // O maplibre-gl v6 nao tem export default: precisa importar por nome.
 // "Map" e renomeado para MapaLibre porque Map ja existe no JavaScript.
 import {
@@ -31,7 +31,20 @@ const ZOOM_INICIAL = 13
 // a area visivel seria o estado inteiro.
 const ZOOM_MINIMO_DESTAQUES = 11
 
+// O MapLibre desenha o mapa via WebGL. Se o navegador nao tiver WebGL
+// disponivel (aceleracao de hardware desligada, driver de video bloqueado),
+// o mapa fica branco sem erro nenhum. Melhor detectar e avisar.
+function webglDisponivel() {
+  try {
+    const c = document.createElement('canvas')
+    return !!(c.getContext('webgl2') || c.getContext('webgl'))
+  } catch {
+    return false
+  }
+}
+
 export default function Mapa({ descobertas, aoDescobrir, aoMudarDestaques }) {
+  const [erro, setErro] = useState(null)
   const containerRef = useRef(null)
   const marcadoresRef = useRef({})
   const marcadoresTuristicosRef = useRef([])
@@ -46,6 +59,11 @@ export default function Mapa({ descobertas, aoDescobrir, aoMudarDestaques }) {
   aoMudarDestaquesRef.current = aoMudarDestaques
 
   useEffect(() => {
+    if (!webglDisponivel()) {
+      setErro('webgl')
+      return
+    }
+
     const mapa = new MapaLibre({
       container: containerRef.current,
       style: ESTILO,
@@ -54,7 +72,13 @@ export default function Mapa({ descobertas, aoDescobrir, aoMudarDestaques }) {
     })
 
     mapa.addControl(new NavigationControl(), 'top-right')
-    mapa.on('error', (e) => console.error('Erro no mapa:', e && e.error))
+    mapa.on('error', (e) => {
+      console.error('Erro no mapa:', e && e.error)
+      // Falha ao buscar o estilo = tiles bloqueados ou sem internet.
+      if (e && e.error && /style|fetch|network/i.test(String(e.error.message || ''))) {
+        setErro('rede')
+      }
+    })
 
     // ---------- 1. As Moemas escondidas ----------
 
@@ -184,5 +208,33 @@ export default function Mapa({ descobertas, aoDescobrir, aoMudarDestaques }) {
     })
   }, [descobertas])
 
-  return <div ref={containerRef} className="mapa" />
+  return (
+    <>
+      <div ref={containerRef} className="mapa" />
+      {erro && (
+        <div className="mapa-erro">
+          <h2>O mapa nao pode ser exibido</h2>
+          {erro === 'webgl' ? (
+            <>
+              <p>
+                Seu navegador esta sem WebGL, que e o recurso usado para desenhar
+                o mapa. O resto do site continua funcionando.
+              </p>
+              <p className="mapa-erro-dica">
+                Normalmente resolve ligando a aceleracao de hardware:
+                <br />
+                <strong>Configuracoes &gt; Sistema &gt; Usar aceleracao de
+                hardware quando disponivel</strong>, e reiniciar o navegador.
+              </p>
+            </>
+          ) : (
+            <p>
+              Nao foi possivel carregar os dados do mapa. Verifique sua conexao
+              ou se alguma extensao esta bloqueando o site.
+            </p>
+          )}
+        </div>
+      )}
+    </>
+  )
 }

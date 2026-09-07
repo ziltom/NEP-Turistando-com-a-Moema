@@ -153,3 +153,41 @@ html, body, #root {
 @media (max-width: 640px) {
   .painel { width: auto; right: 16px; max-height: 45%; }
 }
+
+/* ---------- Aviso quando o mapa nao pode ser desenhado ---------- */
+
+.mapa-erro {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 40px 24px;
+  background: #f1f5f9;
+}
+
+.mapa-erro h2 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--cor-texto);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.mapa-erro p {
+  margin: 0;
+  max-width: 420px;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--cor-suave);
+}
+
+.mapa-erro-dica {
+  padding-top: 10px;
+  border-top: 1px solid var(--cor-borda);
+  font-size: 0.8rem !important;
+}
