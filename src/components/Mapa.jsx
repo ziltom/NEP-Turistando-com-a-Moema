@@ -48,6 +48,7 @@ export default function Mapa({ descobertas, aoDescobrir, aoMudarDestaques }) {
   const containerRef = useRef(null)
   const marcadoresRef = useRef({})
   const marcadoresTuristicosRef = useRef([])
+  const popupRef = useRef(null)
 
   // Refs para os callbacks: assim o mapa e criado UMA vez so,
   // mas os handlers sempre enxergam o estado atual.
@@ -70,6 +71,15 @@ export default function Mapa({ descobertas, aoDescobrir, aoMudarDestaques }) {
       center: CENTRO_FORTALEZA,
       zoom: ZOOM_INICIAL,
     })
+
+    // Um popup por vez: sem isso, cada clique deixa mais um aberto na tela.
+    const abrirPopup = (lngLat, html, offset) => {
+      if (popupRef.current) popupRef.current.remove()
+      popupRef.current = new Popup({ offset, closeButton: false })
+        .setLngLat(lngLat)
+        .setHTML(html)
+        .addTo(mapa)
+    }
 
     mapa.addControl(new NavigationControl(), 'top-right')
     mapa.on('error', (e) => {
@@ -94,14 +104,13 @@ export default function Mapa({ descobertas, aoDescobrir, aoMudarDestaques }) {
           aoDescobrirRef.current(ponto.id)
         }
 
-        new Popup({ offset: 30, closeButton: false })
-          .setLngLat([ponto.lng, ponto.lat])
-          .setHTML(
-            '<img src="/moema/moema.png" alt="Moema" class="popup-img" />' +
+        abrirPopup(
+          [ponto.lng, ponto.lat],
+          '<img src="/moema/moema.png" alt="Moema" class="popup-img" />' +
             '<strong>' + ponto.nome + '</strong>' +
-            '<p>' + ponto.descricao + '</p>'
-          )
-          .addTo(mapa)
+            '<p>' + ponto.descricao + '</p>',
+          30
+        )
       })
 
       const marcador = new Marker({ element: el })
@@ -170,10 +179,11 @@ export default function Mapa({ descobertas, aoDescobrir, aoMudarDestaques }) {
           const imagem = ponto.imagem
             ? '<img src="' + ponto.imagem + '" alt="" class="popup-img" />'
             : ''
-          new Popup({ offset: 18, closeButton: false })
-            .setLngLat([ponto.lng, ponto.lat])
-            .setHTML(imagem + '<strong>' + ponto.nome + '</strong>')
-            .addTo(mapa)
+          abrirPopup(
+            [ponto.lng, ponto.lat],
+            imagem + '<strong>' + ponto.nome + '</strong>',
+            18
+          )
         })
 
         marcadoresTuristicosRef.current.push(
@@ -196,6 +206,7 @@ export default function Mapa({ descobertas, aoDescobrir, aoMudarDestaques }) {
     atualizarDestaques()
 
     return () => {
+      if (popupRef.current) popupRef.current.remove()
       limparMarcadoresTuristicos()
       mapa.remove()
     }
