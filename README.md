@@ -19,22 +19,7 @@ clicar nela, a Moema é revelada e o progresso fica salvo no navegador.
 mostra os 3 pontos turísticos mais relevantes da região visível, com marcadores
 numerados no mapa e uma lista no painel.
 
----
 
-## Stack
-
-| Camada | Ferramenta | Custo |
-|---|---|---|
-| Frontend | Vite + React | — |
-| Mapa | MapLibre GL JS | grátis, open source |
-| Tiles | Stadia Maps | grátis (200 mil créditos/mês) |
-| Dados turísticos | OpenStreetMap via Overpass API | grátis |
-| Fotos | Wikidata / Wikimedia Commons | grátis |
-| Hospedagem | Vercel (plano Hobby) | grátis |
-
-**Não há backend e não há banco de dados.** O progresso do usuário fica no
-`localStorage`. Os dados turísticos são gerados antes do deploy e servidos como
-um arquivo estático — o site em produção não chama nenhuma API de dados.
 
 ---
 
